@@ -23,3 +23,10 @@ Knoweldge should be cheap, fast enjoyable, silly, shared, disproven, contested, 
 [Chemistry: Atoms First 2E](https://openstax.org/details/books/chemistry-atoms-first-2e) 📚 - Fork of 2E but not with more Atoms!!!!
 
 [Biology 2E](https://openstax.org/details/books/biology-2e) - 📚 Like Chemistry 2E but Biology 
+
+[Artificial Intelligence: A Modern Approach]( https://github.com/aimacode/aima-python) - The Gospel of Machine Learning
+
+[Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/) Michael Nielsen writes another masterpiece - About Deep Learning - if you are into that sort of thing. 
+
+[Reinforcement Learning](http://incompleteideas.net/book/RLbook2020.pdf) - The only book you need on the subject 
+
