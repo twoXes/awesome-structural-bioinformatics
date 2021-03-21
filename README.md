@@ -32,8 +32,9 @@ Knoweldge should be cheap, fast enjoyable, silly, shared, disproven, contested, 
 
 ## Why Should You Care
 
-
 ![Prometheus](prometheus.gif)
+
+At their core, Crick and thus *Prometheus* are taking about evolution at the molecular level. 
 
 ## Scoring Function 
 
