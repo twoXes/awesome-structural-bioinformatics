@@ -35,3 +35,21 @@ Knoweldge should be cheap, fast enjoyable, silly, shared, disproven, contested, 
 
 ![Prometheus](prometheus.gif)
 
+## Scoring Function 
+
+ there are two common approaches to building a score function: 
+* **potentials of mean force**
+    * often called statistics- or Boltzmann-based force fields
+    * measuring distance as a reflection of statistical tendencies within proteins
+    * . One takes a large set of proteins, collects statistics and converts them to a score function. One then expects this function to work well for proteins not included in its parameterisation. 
+* **an optimization calculation**
+   * select underlying basis function 
+      * quasi-Lennard-Jones 
+      * various sigmoidal functions 
+   * We can say that the correct structure is whatever is given in the protein data bank, but unfortunately, there is almost an infinity of incorrect structures for a sequence and one would like the score function to penalize all of them
+  *  One way to encode this idea is to adopt a statistical approach and try to consider the distribution of incorrect structures
+ [source](http://web.stanford.edu/class/cs273/refs/torda_chapter_proteomics.pdf)
+
+Allowing gaps and insertions at any position and of any length leads to a combinatorial explosion of possibilities. The calculation can be made tractable by restricting the search space and forbidding gaps except in recognised loops in template structures.
+
+There is a score function and a fast method for producing the best possible sequence to structure alignments and thus the best models possible. Unfortunately, the problem is still not solved
