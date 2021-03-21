@@ -4,7 +4,7 @@ An artificially deep look at Molecular Informatics. Only that which is necessary
 
 ![chemistry](chemistry.gif)
 
-Most code written in Python and Juptyer Notebooks except when it isn't. Deal with it. 
+Most code written in Python :snake and Juptyer Notebooks 📓 except when it isn't. Deal with it. 
 
 Want a better way to learn? Spend 4-12 years of your life and hundreds of thousands of dollars to get a piece of paper with a shiny gold stamp on it. Or feed yourself. No one cares which choice you make. Keep it to yourself.
 
