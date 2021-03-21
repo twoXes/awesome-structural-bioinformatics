@@ -36,6 +36,8 @@ Knoweldge should be cheap, fast enjoyable, silly, shared, disproven, contested, 
 
 At their core, Crick and thus *Prometheus* are taking about evolution at the molecular level. 
 
+ > Structure-function relationships are the fundamental object of knowledge in protein chemistry; they allow us to rationally design drugs, engineer proteins with new functions, and understand why mutations cause disease. [source](https://www.chemistryworld.com/features/on-the-origin-of-proteins/3004719.article)
+
 ## Scoring Function 
 
 ![Goal](goal.gif)
