@@ -18,15 +18,15 @@ Knoweldge should be cheap, fast enjoyable, silly, shared, disproven, contested, 
 
 ## Other Free Books 
 
-[Chemisty 2E](https://openstax.org/details/books/chemistry-2e) - 📚 Equivalent to 201 & 202 Level Chemistry Book
+[Chemisty 2E](https://openstax.org/details/books/chemistry-2e) - :atom: Equivalent to 201 & 202 Level Chemistry Book
 
-[Chemistry: Atoms First 2E](https://openstax.org/details/books/chemistry-atoms-first-2e) 📚 - Fork of 2E but not with more Atoms!!!!
+[Chemistry: Atoms First 2E](https://openstax.org/details/books/chemistry-atoms-first-2e) :atom - Fork of 2E but not with more Atoms!!!!
 
-[Biology 2E](https://openstax.org/details/books/biology-2e) - 📚 Like Chemistry 2E but Biology 
+[Biology 2E](https://openstax.org/details/books/biology-2e) 👽 Like Chemistry 2E but Biology 
 
-[Artificial Intelligence: A Modern Approach]( https://github.com/aimacode/aima-python) - The Gospel of Machine Learning
+[Artificial Intelligence: A Modern Approach]( https://github.com/aimacode/aima-python) 🤖- The Gospel of Machine Learning
 
-[Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/) Michael Nielsen writes another masterpiece - About Deep Learning - if you are into that sort of thing. 
+[Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/) 🤖 Michael Nielsen writes another masterpiece - About Deep Learning - if you are into that sort of thing. 
 
-[Reinforcement Learning](http://incompleteideas.net/book/RLbook2020.pdf) - The only book you need on the subject 
+[Reinforcement Learning](http://incompleteideas.net/book/RLbook2020.pdf) 🤖 - The only book you need on the subject 
 
