@@ -16,4 +16,8 @@ Knoweldge should be cheap, fast enjoyable, silly, shared, disproven, contested, 
 
 ## Other Free Books 
 
-[Chemisty 2E](https://openstax.org/details/books/chemistry-2e) - Equivalent to 201 & 202 Level Chemistry Book
+[Chemisty 2E](https://openstax.org/details/books/chemistry-2e) - 📚 Equivalent to 201 & 202 Level Chemistry Book
+
+[Chemistry: Atoms First 2E](https://openstax.org/details/books/chemistry-atoms-first-2e) 📚 - Fork of 2E but not with more Atoms!!!!
+
+[Biology 2E](https://openstax.org/details/books/biology-2e) - 📚 Like Chemistry 2E but Biology 
