@@ -1,6 +1,6 @@
 # Learning Molecular Informatics Artifically Deep
 
-An artificially deep look at Molecular Informatics. Only that which is necessary to get started doing cool $h1t. 
+An artificially deep look at ML for Molecular Informatics. Only what is necessary to do cool $h1t. 
 
 ![chemistry](chemistry.gif)
 
