@@ -30,3 +30,9 @@ Knoweldge should be cheap, fast enjoyable, silly, shared, disproven, contested, 
 
 [Reinforcement Learning](http://incompleteideas.net/book/RLbook2020.pdf) 🤖  The only book you need on the subject 
 
+## Why Should You Care
+
+DNA can be the most boring and dry subject in the world...or you can realize that it's discover Francis Crick unmined it because he was looking for proof that humans are 
+
+![Prometheus](prometheus.gif)
+
