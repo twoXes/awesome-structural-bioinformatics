@@ -1,4 +1,4 @@
-# Learning Molecular Informatics Artifically Deep (featuring Python & Friends) 
+# Learning Molecular Informatics Artifically Deep
 
 An artificially deep look at Molecular Informatics. Only that which is necessary to get started doing cool $h1t. 
 
