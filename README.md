@@ -37,7 +37,9 @@ Knoweldge should be cheap, fast enjoyable, silly, shared, disproven, contested, 
 
 ## Scoring Function 
 
- there are two common approaches to building a score function: 
+![Goal](goal.gif)
+
+ There are two common approaches to building a score function: 
 * **potentials of mean force**
     * often called statistics- or Boltzmann-based force fields
     * measuring distance as a reflection of statistical tendencies within proteins
