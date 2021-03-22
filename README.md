@@ -16,7 +16,7 @@ Books on Cheminformatics, Bioinformatics, Quantum Chemistry strangle the subject
 
 Knoweldge should be cheap, fast enjoyable, silly, shared, disproven, contested, and most of all free. This book combats knowledge hodlers, and innovation stifflers by not being boring and old. Though we look at all the supposedly outdated Machine Learning methods applied to Molecular Informatics (if you can't date yourself, who can you date?) , this is for the young of mind and young of spirit 🚼. 
 
-## Other Free Books 
+## Other Free Books You Should Read Instead of This
 
 [Chemisty 2E](https://openstax.org/details/books/chemistry-2e) - :atom: Equivalent to 201 & 202 Level Chemistry Book
 
@@ -29,6 +29,8 @@ Knoweldge should be cheap, fast enjoyable, silly, shared, disproven, contested, 
 [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/) 🤖 Michael Nielsen writes another masterpiece - About Deep Learning - if you are into that sort of thing. 
 
 [Reinforcement Learning](http://incompleteideas.net/book/RLbook2020.pdf) 🤖  The only book you need on the subject 
+
+[Pattern Recognition and Machine Learning](https://www.microsoft.com/en-us/research/uploads/prod/2006/01/Bishop-Pattern-Recognition-and-Machine-Learning-2006.pdf) 🤖 Another classic banger
 
 ## Why Should You Care
 
