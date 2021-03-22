@@ -60,3 +60,5 @@ At their core, Crick and thus *Prometheus* are taking about evolution at the mol
 Allowing gaps and insertions at any position and of any length leads to a combinatorial explosion of possibilities. The calculation can be made tractable by restricting the search space and forbidding gaps except in recognised loops in template structures.
 
 There is a score function and a fast method for producing the best possible sequence to structure alignments and thus the best models possible. Unfortunately, the problem is still not solved
+
+### Probability 
