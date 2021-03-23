@@ -1,5 +1,6 @@
 import streamlit as st
-import Bio 
+import Bio
+from Bio.Blast import NCBIWWW
 
 '''
 
@@ -42,7 +43,29 @@ Though we look at  supposedly outdated (if you can't date yourself, who can you 
 
 [Pattern Recognition and Machine Learning](https://www.microsoft.com/en-us/research/uploads/prod/2006/01/Bishop-Pattern-Recognition-and-Machine-Learning-2006.pdf) 🤖 Another classic banger
 
+## YouTube University
+
+Don't wait for "school," Attend YouTube U for any prereqs you need to get started, today:
+
+What is the the structure of DNA?
+
+'''
+
+st.video('https://youtu.be/o_-6JXLYS-k')
+
+'''
+## The Rise of Data
+
+1984 -  [Protein Information Resource](https://proteininformationresource.org/)
+
+12
+
 Structural Classification of Proteins [Database](http://scop.mrc-lmb.cam.ac.uk/)
 
 '''
+
+# get Blast 
+result_handle = NCBIWWW.qblast("blastn","nr","8332116", format_type = "XML")
+st.write(result_handle)
+
 
