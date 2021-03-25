@@ -52,7 +52,7 @@ What is the the structure of DNA?
 '''
 
 st.video('https://youtu.be/o_-6JXLYS-k')
-
+st.video('https://youtu.be/MODnIkQvyz0')
 '''
 ## The Rise of Data
 
@@ -62,10 +62,36 @@ st.video('https://youtu.be/o_-6JXLYS-k')
 
 Structural Classification of Proteins [Database](http://scop.mrc-lmb.cam.ac.uk/)
 
+## [Protein Folding](https://sitn.hms.harvard.edu/flash/2010/issue65/)
 '''
 
+st.video('https://youtu.be/hok2hyED9go')
+
+st.video('https://youtu.be/1peFJ_-N7V8')
+
 '''
-## [Protein Folding](https://sitn.hms.harvard.edu/flash/2010/issue65/)
+The [three questions](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2443096/) of the Protein Folding problem:
+* What is the folding code?
+* What is the folding mechanism?
+* Can we predict the native structure of a protein from its amino acid sequence?
+
+Protein Structure:
+ * sequence of amino acids
+ * secondary structure
+    * a-Helixs
+    * B-sheets
+ * tertiary structure
+ * Quaternary structure
+    * subunit organization
+
+The biggest factor in a proteins ability to fold is the thermodynamics of the structure.[source](https://chem.libretexts.org/Bookshelves/Biological_Chemistry/Supplemental_Modules_(Biological_Chemistry)/Proteins/Protein_Structure/Protein_Folding)
+ * if a proteing is not in the lowest energy conformation it will continue to move and adjust until it finds its most stable state.
+
+Another factor is hydrophic interactions within the protein
+ * hydrophobic interactions have an impact not just on the primary structure but then lead to changes seen in the secondary and tertiary structure as well.
+ * The hydrophobic interactions are shown to have an impact on the protein even after it has found the most stable conformation in how the proteins can interact with each other as well as folding themselves.
+
+Another type of interaction seen when the protein is folding is the disulfide linkages that form in the protein a  sulfur- sulfur chemical bond that results from an oxidative process that links nonadjacent (in most cases) cysteine’s of a protein.
 
 ### AlphaFold
 '''
