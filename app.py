@@ -43,25 +43,15 @@ Though we look at  supposedly outdated (if you can't date yourself, who can you 
 
 [Pattern Recognition and Machine Learning](https://www.microsoft.com/en-us/research/uploads/prod/2006/01/Bishop-Pattern-Recognition-and-Machine-Learning-2006.pdf) 🤖 Another classic banger
 
-## YouTube University
+## What Is A Protein?
 
-Don't wait for "school," Attend YouTube U for any prereqs you need to get started, today:
-
-What is the the structure of DNA?
 
 '''
 
 st.video('https://youtu.be/o_-6JXLYS-k')
 st.video('https://youtu.be/MODnIkQvyz0')
+st.video('https://youtu.be/7udSVZ7bDb8')
 '''
-## The Rise of Data
-
-1984 -  [Protein Information Resource](https://proteininformationresource.org/)
-
-12
-
-Structural Classification of Proteins [Database](http://scop.mrc-lmb.cam.ac.uk/)
-
 ## [Protein Folding](https://sitn.hms.harvard.edu/flash/2010/issue65/)
 '''
 
@@ -69,6 +59,7 @@ st.video('https://youtu.be/hok2hyED9go')
 
 st.video('https://youtu.be/1peFJ_-N7V8')
 
+st.video('https://youtu.be/foJqK357PZE')
 '''
 The [three questions](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2443096/) of the Protein Folding problem:
 * What is the folding code?
