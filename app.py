@@ -47,8 +47,6 @@ Though we look at  supposedly outdated (if you can't date yourself, who can you 
 
 
 '''
-
-st.video('https://youtu.be/o_-6JXLYS-k')
 st.video('https://youtu.be/MODnIkQvyz0')
 st.video('https://youtu.be/7udSVZ7bDb8')
 '''
@@ -88,4 +86,8 @@ Another type of interaction seen when the protein is folding is the disulfide li
 '''
 st.image('alphafold.gif')
 
+'''
+## Quantum Chemistry
+'''
 
+st.video('https://youtu.be/QeUMFo8sODk')
