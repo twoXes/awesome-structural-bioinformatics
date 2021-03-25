@@ -64,8 +64,11 @@ Structural Classification of Proteins [Database](http://scop.mrc-lmb.cam.ac.uk/)
 
 '''
 
-# get Blast 
-result_handle = NCBIWWW.qblast("blastn","nr","8332116", format_type = "XML")
-st.write(result_handle)
+'''
+## [Protein Folding](https://sitn.hms.harvard.edu/flash/2010/issue65/)
+
+### AlphaFold
+'''
+st.image('alphafold.gif')
 
 
