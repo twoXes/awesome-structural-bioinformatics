@@ -68,3 +68,6 @@ There is a score function and a fast method for producing the best possible sequ
 ### Tools 
 
 [OpenMM](http://openmm.org/) - molecular simulation
+
+
+[Deep Learning Methods in Protein Structure Prediction](https://www.sciencedirect.com/science/article/pii/S2001037019304441)
