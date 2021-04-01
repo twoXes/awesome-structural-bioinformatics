@@ -4,7 +4,7 @@ A curated list of awesome protein folding frameworks, libraries, software and re
 
  > Structure-function relationships are the fundamental object of knowledge in protein chemistry; they allow us to rationally design drugs, engineer proteins with new functions, and understand why mutations cause disease. [source](https://www.chemistryworld.com/features/on-the-origin-of-proteins/3004719.article)
  
-> > So let it not look strange if I claim that it is much easier to explain the
+> So let it not look strange if I claim that it is much easier to explain the
 movement of the giant celestial bodies than to interpret in mechani-
 cal terms the origination of just a single caterpillar or a tiny grass. - Immanuel Kant, Natural History and the Theory of Heaven, 1755
 
