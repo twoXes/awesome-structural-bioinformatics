@@ -31,9 +31,9 @@ A curated list of awesome protein folding frameworks, libraries, software and re
 
 *Tools for exploring how two or more molecular structures fit together*
 
-[AutoDock](http://autodock.scripps.edu/) -suite of automated docking tools designed to predict how small molecules bind to a receptor of known 3D structure
+[AutoDock](http://autodock.scripps.edu/) - suite of automated docking tools designed to predict how small molecules bind to a receptor of known 3D structure
 
-[AutoDock Vina](http://vina.scripps.edu/)
+[AutoDock Vina](http://vina.scripps.edu/) - significantly improves the average accuracy of the binding mode predictions compared to AutoDock
 
 [Gnina](https://github.com/gnina/gnina) - deep learning framework for molecular docking -inside deepchem (/dock/pose_generation.py)
 
