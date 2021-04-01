@@ -6,7 +6,7 @@ A curated list of awesome protein folding frameworks, libraries, software and re
 
 
 - [Awesome Protein Folding](#awesome-protein-folding)
-    -  [Data Sources](#data-sources]
+    -  [Data Sources](#data-sources)
     -  [Deep Learning Protein Folding](#deep-learning-protein-folding)
     -  [Molecular Docking Tools](#molecular-docking-tools) 
     -  [Useful References](#useful-references) 
