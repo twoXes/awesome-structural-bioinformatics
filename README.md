@@ -56,63 +56,38 @@ A curated list of awesome protein folding frameworks, libraries, software and re
 
 ![chemistry](chemistry.gif)
 
-### [DeepQMC/PauliNet](https://deepqmc.github.io/index.html)
+[DeepQMC/PauliNet](https://deepqmc.github.io/index.html) -Deep-learning quantum Monte Carlo for electrons in real space
 
-Deep-learning quantum Monte Carlo for electrons in real space
+  * [ :bookmark_tabs: Publication](https://arxiv.org/pdf/1909.08423.pdf): (2020) Deep-neural-network solution of the electronic Schrödinger equation
+  * [:floppy_disk: Github](https://github.com/deepqmc/deepqmc)
 
-[ :bookmark_tabs: Publication](https://arxiv.org/pdf/1909.08423.pdf): (2020) Deep-neural-network solution of the electronic Schrödinger equation
+[FermiNet](https://deepmind.com/blog/article/FermiNet) - Implementation of the Fermionic Neural Network for ab-initio electronic structure calculations 
 
-[:floppy_disk: Github](https://github.com/deepqmc/deepqmc)
+  * [:bookmark_tabs: Publication](https://arxiv.org/abs/1909.02487): (2020) Ab-Initio Solution of the Many-Electron Schrödinger Equation with Deep Neural Networks
 
+  * [:floppy_disk: GitHub Code](https://github.com/deepmind/ferminet)
 
-### [FermiNet](https://deepmind.com/blog/article/FermiNet)
+[Hande](http://www.hande.org.uk/ent) - Highly parallel code for stochastic quantum chemistry. Can be used as standalone program or library from an existing quantum chemistry code.
 
-Implementation of the Fermionic Neural Network for ab-initio electronic structure calculations 
+  * [:bookmark_tabs:  Publication](https://pubs.acs.org/doi/10.1021/acs.jctc.8b01217)
+  * [:floppy_disk: : GitHub](https://github.com/hande-qmc/hande)
 
-[ :bookmark_tabs: Publication](https://arxiv.org/abs/1909.02487): (2020) Ab-Initio Solution of the Many-Electron Schrödinger Equation with Deep Neural Networks
+[PySCF](http://pyscf.org/) - simple, lightweight, and efficient python platform for quantum chemistry calculations and methodology development.
 
-[ :floppy_disk: GitHub Code](https://github.com/deepmind/ferminet)
+  * [:bookmark_tabs: Publication](https://authors.library.caltech.edu/74078/1/1701.08223.pdf)
+  * [:bookmark_tabs: Documentation](http://pyscf.org/pyscf/overview.html)
+  * [:floppy_disk: Github](https://github.com/pyscf/pyscf)
+  * [:floppy_disk: mpi4pyscf](https://github.com/pyscf/mpi4pyscf) - Message Passing Interface parallelism
 
+[PSi4](https://psicode.org/) - suite of ab initio quantum chemistry programs designed for efficient, high-accuracy simulations of molecular properties
 
-### [Hande](http://www.hande.org.uk/ent):
+  * [:bookmark_tabs: Documentation](https://psicode.org/psi4manual/master/index.html)
+  * [:floppy_disk: Github](https://github.com/psi4/psi4/)
 
-Highly parallel code for stochastic quantum chemistry. Can be used as standalone program or library from an existing quantum chemistry code.
+[QMCTorch](https://qmctorch.readthedocs.io/en/latest/) - Pytorch Implementation of Real Space Quantum Monte Carlo Simulations of Molecular Systems 
 
-[ :bookmark_tabs:  Publication](https://pubs.acs.org/doi/10.1021/acs.jctc.8b01217)
+  * [:floppy_disk: Github](https://github.com/NLESC-JCER/QMCTorch)
 
-[ :floppy_disk: : GitHub](https://github.com/hande-qmc/hande)
-
-### [PySCF](http://pyscf.org/) 
-
-open-source collection of electronic structure modules powered by Python. The package aims to provide a simple, lightweight, and efficient platform for quantum chemistry calculations and methodology development.
-
-[:bookmark_tabs: Publication](https://authors.library.caltech.edu/74078/1/1701.08223.pdf)
-
-[:bookmark_tabs: Documentation](http://pyscf.org/pyscf/overview.html)
-
-[:floppy_disk: Github](https://github.com/pyscf/pyscf)
-
-[:floppy_disk: mpi4pyscf](https://github.com/pyscf/mpi4pyscf) - Message Passing Interface) parallelism
-
-### [PSi4](https://psicode.org/)
-
-suite of ab initio quantum chemistry programs designed for efficient, high-accuracy simulations of molecular properties
-
-[:bookmark_tabs: Documentation](https://psicode.org/psi4manual/master/index.html)
-
-[:floppy_disk: Github](https://github.com/psi4/psi4/)
-
-### [QMCTorch](https://qmctorch.readthedocs.io/en/latest/)
-
-Pytorch Implementation of Real Space Quantum Monte Carlo Simulations of Molecular Systems 
-
-[:floppy_disk: Github](https://github.com/NLESC-JCER/QMCTorch)
-
-Want a better way to learn than some random repo on github? 
-
-Spend 4-12 years of your life and hundreds of thousands of dollars chasing a paper with a stamp on it 🥇.
-
-Or feed yourself 🍼.
 
 
 
@@ -133,31 +108,7 @@ Or feed yourself 🍼.
 
 [:vhs: YouTube](https://youtu.be/uAIuA1O7iE8)
 
-### [PySCF](http://pyscf.org/) 
 
-open-source collection of electronic structure modules powered by Python. The package aims to provide a simple, lightweight, and efficient platform for quantum chemistry calculations and methodology development.
-
-[:bookmark_tabs: Publication](https://authors.library.caltech.edu/74078/1/1701.08223.pdf)
-
-[:bookmark_tabs: Documentation](http://pyscf.org/pyscf/overview.html)
-
-[:floppy_disk: Github](https://github.com/pyscf/pyscf)
-
-[:floppy_disk: mpi4pyscf](https://github.com/pyscf/mpi4pyscf) - Message Passing Interface) parallelism
-
-### [PSi4](https://psicode.org/)
-
-suite of ab initio quantum chemistry programs designed for efficient, high-accuracy simulations of molecular properties
-
-[:bookmark_tabs: Documentation](https://psicode.org/psi4manual/master/index.html)
-
-[:floppy_disk: Github](https://github.com/psi4/psi4/)
-
-### [QMCTorch](https://qmctorch.readthedocs.io/en/latest/)
-
-Pytorch Implementation of Real Space Quantum Monte Carlo Simulations of Molecular Systems 
-
-[:floppy_disk: Github](https://github.com/NLESC-JCER/QMCTorch)
 
 
 ### [RaptorX](http://raptorx.uchicago.edu/)
@@ -219,7 +170,13 @@ macro-molecular systems at the nanoscale"
 
 ## Why Z-A Awesome Protein Folding? 
 
-Books on Cheminformatics, Bioinformatics, Quantum Chemistry strangle the subject to sleep 😴 and command a wild price 🤑 for the naps they induce. 
+Books on Cheminformatics, Bioinformatics, Quantum Chemistry strangle the subject to sleep 😴 and command a wild price 🤑 for the naps they induce.
+
+Want a better way to learn than some random repo on github? 
+
+Spend 4-12 years of your life and hundreds of thousands of dollars chasing a paper with a stamp on it 🥇.
+
+Or feed yourself 🍼.
 
 Knoweldge should be cheap, fast enjoyable, silly, shared, disproven, contested, and most of all free.
 
