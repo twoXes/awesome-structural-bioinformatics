@@ -55,7 +55,7 @@ cal terms the origination of just a single caterpillar or a tiny grass. - Immanu
 
 [GOMoDo](https://gomodo.grs.kfa-juelich.de/php/about.php) - GPCR online modeling and docking server
 
-[Smina](https://github.com/mwojcikowski/smina)
+[Smina](https://github.com/mwojcikowski/smina) used for minimization (local_only) as opposed to of docking, makes Vina much easer to use and 10-20x faster. Docking performance is about the same since partial charge calculation and file i/o isn't such a big part of the performance.
 
 ## Quantum Chemistry Tools 
 
