@@ -9,6 +9,7 @@ A curated list of awesome protein folding frameworks, libraries, software and re
     -  [Data Sources](#data-sources)
     -  [Deep Learning Protein Folding](#deep-learning-protein-folding)
     -  [Molecular Docking Tools](#molecular-docking-tools) 
+    -  [Quantum Chemistry Tools](#quantum-chemistry-tools)
     -  [Useful References](#useful-references) 
     -  [Z-A Protein Folding](#z-a-protein-folding) 
 
@@ -51,46 +52,9 @@ A curated list of awesome protein folding frameworks, libraries, software and re
 
 [Smina](https://github.com/mwojcikowski/smina)
 
+## Quantum Chemistry Tools 
 
 ![chemistry](chemistry.gif)
-
-Want a better way to learn than some random repo on github? 
-
-Spend 4-12 years of your life and hundreds of thousands of dollars chasing a paper with a stamp on it 🥇.
-
-Or feed yourself 🍼.
-
-## Why Awesome Protein Folding? 
-
-Books on Cheminformatics, Bioinformatics, Quantum Chemistry strangle the subject to sleep 😴 and command a wild price 🤑 for the naps they induce. 
-
-Knoweldge should be cheap, fast enjoyable, silly, shared, disproven, contested, and most of all free.
-
-knowledge hodlers, and innovation stifflers are boring and old.
-
-for the young of mind and young of spirit 🚼 that love to fold. 
-
-## Other Free Books You Should Read Instead of This Repo
-
-[Chemisty 2E](https://openstax.org/details/books/chemistry-2e) - :atom: Equivalent to 201 & 202 Level Chemistry Book
-
-[Chemistry: Atoms First 2E](https://openstax.org/details/books/chemistry-atoms-first-2e) :atom: Fork of 2E but not with more Atoms!!!!
-
-[Biology 2E](https://openstax.org/details/books/biology-2e) 👽 Like Chemistry 2E but Biology 
-
-[Artificial Intelligence: A Modern Approach]( https://github.com/aimacode/aima-python) 🤖 The Gospel of Machine Learning
-
-[Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/) 🤖 Michael Nielsen writes another masterpiece - About Deep Learning - if you are into that sort of thing. 
-
-[Reinforcement Learning](http://incompleteideas.net/book/RLbook2020.pdf) 🤖  The only book you need on the subject 
-
-[Pattern Recognition and Machine Learning](https://www.microsoft.com/en-us/research/uploads/prod/2006/01/Bishop-Pattern-Recognition-and-Machine-Learning-2006.pdf) 🤖 Another classic banger
-
-
-
-### Tools 
-
-[MiniFold](https://github.com/hypnopump/MiniFold)
 
 ### [DeepQMC/PauliNet](https://deepqmc.github.io/index.html)
 
@@ -117,6 +81,47 @@ Highly parallel code for stochastic quantum chemistry. Can be used as standalone
 [ :bookmark_tabs:  Publication](https://pubs.acs.org/doi/10.1021/acs.jctc.8b01217)
 
 [ :floppy_disk: : GitHub](https://github.com/hande-qmc/hande)
+
+### [PySCF](http://pyscf.org/) 
+
+open-source collection of electronic structure modules powered by Python. The package aims to provide a simple, lightweight, and efficient platform for quantum chemistry calculations and methodology development.
+
+[:bookmark_tabs: Publication](https://authors.library.caltech.edu/74078/1/1701.08223.pdf)
+
+[:bookmark_tabs: Documentation](http://pyscf.org/pyscf/overview.html)
+
+[:floppy_disk: Github](https://github.com/pyscf/pyscf)
+
+[:floppy_disk: mpi4pyscf](https://github.com/pyscf/mpi4pyscf) - Message Passing Interface) parallelism
+
+### [PSi4](https://psicode.org/)
+
+suite of ab initio quantum chemistry programs designed for efficient, high-accuracy simulations of molecular properties
+
+[:bookmark_tabs: Documentation](https://psicode.org/psi4manual/master/index.html)
+
+[:floppy_disk: Github](https://github.com/psi4/psi4/)
+
+### [QMCTorch](https://qmctorch.readthedocs.io/en/latest/)
+
+Pytorch Implementation of Real Space Quantum Monte Carlo Simulations of Molecular Systems 
+
+[:floppy_disk: Github](https://github.com/NLESC-JCER/QMCTorch)
+
+Want a better way to learn than some random repo on github? 
+
+Spend 4-12 years of your life and hundreds of thousands of dollars chasing a paper with a stamp on it 🥇.
+
+Or feed yourself 🍼.
+
+
+
+
+### Tools 
+
+[MiniFold](https://github.com/hypnopump/MiniFold)
+
+
 
 ### PDNet
 
@@ -211,6 +216,31 @@ macro-molecular systems at the nanoscale"
 (2005) [GPCR Folding and Maturation](https://link.springer.com/chapter/10.1007/978-1-59259-919-6_3) from [The G Protein-Coupled Receptors Handbook](https://link.springer.com/book/10.1007/978-1-59259-919-6)
 
 ## Z-A Protein Folding 
+
+## Why Z-A Awesome Protein Folding? 
+
+Books on Cheminformatics, Bioinformatics, Quantum Chemistry strangle the subject to sleep 😴 and command a wild price 🤑 for the naps they induce. 
+
+Knoweldge should be cheap, fast enjoyable, silly, shared, disproven, contested, and most of all free.
+
+knowledge hodlers, and innovation stifflers are boring and old. this is for the young of mind and young of spirit 🚼 that love to fold. 
+
+## Other Free Books You Should Read Instead of This Repo
+
+[Chemisty 2E](https://openstax.org/details/books/chemistry-2e) - :atom: Equivalent to 201 & 202 Level Chemistry Book
+
+[Chemistry: Atoms First 2E](https://openstax.org/details/books/chemistry-atoms-first-2e) :atom: Fork of 2E but not with more Atoms!!!!
+
+[Biology 2E](https://openstax.org/details/books/biology-2e) 👽 Like Chemistry 2E but Biology 
+
+[Artificial Intelligence: A Modern Approach]( https://github.com/aimacode/aima-python) 🤖 The Gospel of Machine Learning
+
+[Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/) 🤖 Michael Nielsen writes another masterpiece - About Deep Learning - if you are into that sort of thing. 
+
+[Reinforcement Learning](http://incompleteideas.net/book/RLbook2020.pdf) 🤖  The only book you need on the subject 
+
+[Pattern Recognition and Machine Learning](https://www.microsoft.com/en-us/research/uploads/prod/2006/01/Bishop-Pattern-Recognition-and-Machine-Learning-2006.pdf) 🤖 Another classic banger
+
 
 ### Scoring Function 
 
