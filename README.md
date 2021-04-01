@@ -29,9 +29,9 @@ A curated list of awesome protein folding frameworks, libraries, software and re
 
 ## Molecular Docking Tools
 
-* Tools for exploring how two or more molecular structures fit together*
+*Tools for exploring how two or more molecular structures fit together*
 
-[AutoDock](http://autodock.scripps.edu/)
+[AutoDock](http://autodock.scripps.edu/) -suite of automated docking tools designed to predict how small molecules bind to a receptor of known 3D structure
 
 [AutoDock Vina](http://vina.scripps.edu/)
 
