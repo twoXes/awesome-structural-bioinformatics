@@ -59,7 +59,11 @@ Or feed yourself 🍼.
 
 Books on Cheminformatics, Bioinformatics, Quantum Chemistry strangle the subject to sleep 😴 and command a wild price 🤑 for the naps they induce. 
 
-Knoweldge should be cheap, fast enjoyable, silly, shared, disproven, contested, and most of all free. This book combats knowledge hodlers, and innovation stifflers by not being boring and old. This is for the young of mind and young of spirit 🚼 that love to fold. 
+Knoweldge should be cheap, fast enjoyable, silly, shared, disproven, contested, and most of all free.
+
+knowledge hodlers, and innovation stifflers are boring and old.
+
+for the young of mind and young of spirit 🚼 that love to fold. 
 
 ## Other Free Books You Should Read Instead of This Repo
 
