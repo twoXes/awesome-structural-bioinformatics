@@ -1,6 +1,6 @@
 # Awesome Protein Folding
 
-![Simpsons](simpons.gif)
+![Simpsons](simpsons.gif)
 
 ## Molecular Docking Tools
 
