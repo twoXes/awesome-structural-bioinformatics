@@ -10,6 +10,7 @@ A curated list of awesome protein folding frameworks, libraries, software and re
     -  [Deep Learning Protein Folding](#deep-learning-protein-folding)
     -  [Molecular Docking Tools](#molecular-docking-tools) 
     -  [Useful References](#useful-references) 
+    -  [Z-A Protein Folding](#z-a-protein-folding) 
 
 ## Data Sources
 
@@ -235,3 +236,31 @@ macro-molecular systems at the nanoscale"
 (2009) [Amphipol-Assisted in Vitro Folding of G Protein-Coupled Receptors](https://pubs.acs.org/doi/10.1021/bi801729z)
 
 (2005) [GPCR Folding and Maturation](https://link.springer.com/chapter/10.1007/978-1-59259-919-6_3) from [The G Protein-Coupled Receptors Handbook](https://link.springer.com/book/10.1007/978-1-59259-919-6)
+
+## Z-A Protein Folding 
+
+### Scoring Function 
+
+![Goal](goal.gif)
+
+ There are two common approaches to building a score function: 
+* **potentials of mean force**
+    * often called statistics- or Boltzmann-based force fields
+    * measuring distance as a reflection of statistical tendencies within proteins
+    * . One takes a large set of proteins, collects statistics and converts them to a score function. One then expects this function to work well for proteins not included in its parameterisation. 
+* **an optimization calculation**
+   * select underlying basis function 
+      * quasi-Lennard-Jones 
+      * various sigmoidal functions 
+   * We can say that the correct structure is whatever is given in the protein data bank, but unfortunately, there is almost an infinity of incorrect structures for a sequence and one would like the score function to penalize all of them
+  *  One way to encode this idea is to adopt a statistical approach and try to consider the distribution of incorrect structures
+ [source](http://web.stanford.edu/class/cs273/refs/torda_chapter_proteomics.pdf)
+
+Allowing gaps and insertions at any position and of any length leads to a combinatorial explosion of possibilities. The calculation can be made tractable by restricting the search space and forbidding gaps except in recognised loops in template structures.
+
+There is a score function and a fast method for producing the best possible sequence to structure alignments and thus the best models possible. Unfortunately, the problem is still not solved
+
+### Probability 
+
+![Probably](probably.gif)
+
