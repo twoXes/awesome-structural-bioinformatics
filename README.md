@@ -191,6 +191,90 @@ macro-molecular systems at the nanoscale"
 [GOMoDo](https://gomodo.grs.kfa-juelich.de/php/about.php) - GPCR online modeling and docking server
 
 
-## References
+## Useful References
+
+(2021) [The mutational landscape of human olfactory G protein-coupled receptors](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7866472/)
+
+(2020) [Functions of olfactory receptors are decoded from their sequence](https://www.biorxiv.org/content/10.1101/2020.01.06.895540v1.full)
+
+(2020) [Rapid online learning and robust recall in a neuromorphic olfactory circuit](https://arxiv.org/abs/1906.07067) - Paper from Intel's Neuromorphic Computing Lab
+
+(2020) [High-Throughput Docking Using Quantum Mechanical Scoring](https://www.frontiersin.org/articles/10.3389/fchem.2020.00246/full)
+
+(2020) [Predicting Human Olfactory Perception from Activities of Odorant Receptors](https://www.sciencedirect.com/science/article/pii/S2589004220305484)
 
 (2020) [Deep Learning Methods in Protein Structure Prediction](https://www.sciencedirect.com/science/article/pii/S2001037019304441)
+
+(2020) [Molecular chaperones and G protein-coupled receptor maturation and pharmacology](https://www.sciencedirect.com/science/article/abs/pii/S0303720720301623)
+
+(2019) [Quantum Biology:
+Can we explain olfaction using quantum phenomenon?](https://arxiv.org/pdf/1911.02529.pdf)
+
+(2019) [Computational modeling of the olfactory receptor Olfr73 suggests a molecular basis for low potency of olfactory receptor-activating compounds](https://www.nature.com/articles/s42003-019-0384-8)
+
+(2019) [Machine Learning for Scent: Learning Generalizable Perceptual Representations of Small Molecules](https://arxiv.org/pdf/1910.10685.pdf) 
+
+(2019)[From Machine Learning to Deep Learning: Advances in scoring functions for protein-ligand docking](https://onlinelibrary.wiley.com/doi/abs/10.1002/wcms.1429)
+
+(2019) [The Unreasonable Effectiveness of Convolutional Neural Networks in Population Genetic Inference, Molecular Biology and Evolution](https://doi.org/10.1093/molbev/msy224)
+
+(2019) [Understanding Ligand Binding to G-Protein Coupled Receptors Using Multiscale Simulations](https://www.frontiersin.org/articles/10.3389/fmolb.2019.00029/full)
+
+(2019) [Investigation of the binding between olfactory receptors and odorant molecules in C. elegans organism](https://www.sciencedirect.com/science/article/pii/S0301462219302881?via%3Dihub)
+
+(2018) [Recent Advances in Structure-Based Drug Design Targeting Class A G Protein-Coupled Receptors Utilizing Crystal Structures and Computational Simulations](https://pubs.acs.org/doi/10.1021/acs.jmedchem.6b01453)
+
+(2018) [Machine Learning in Human Olfactory Research](https://academic.oup.com/chemse/article/44/1/11/5145702)
+
+(2018) [Structure–Function Relationships of Olfactory and Taste Receptors](https://academic.oup.com/chemse/article/43/2/81/4803207)
+
+(2018) [DeepFam: deep learning based alignment-free method for protein family modeling and prediction](https://doi.org/10.1093/bioinformatics/bty275)
+
+(2018) [Derivative-free neural network for optimizing the scoring functions associated with dynamic programming of pairwise-profile alignment](https://doi.org/10.1186/s13015-018-0123-6)
+
+(2018) [A Quantum Biomimetic Electronic Nose Sensor](https://www.nature.com/articles/s41598-017-18346-2)
+
+(2018) [Applications and Advances in Bioelectronic Noses for Odour Sensing](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5795383/)
+
+(2018) [Protein- and Peptide-Based Biosensors in Artificial Olfaction](https://www.cell.com/trends/biotechnology/fulltext/S0167-7799(18)30195-1?rss=yes)
+
+(2018) [Hippocampal projections to the anterior olfactory nucleus differentially convey spatiotemporal information during episodic odour memor](https://www.nature.com/articles/s41467-018-05131-6) - AD
+
+(2018) [From Nose to Memory: The Involuntary Nature of Odor-evoked Autobiographical Memories in Alzheimer’s Disease](https://academic.oup.com/chemse/article/43/1/27/4443144) - AD
+
+(2017) [Protein-Ligand Scoring with CNN](https://pubs.acs.org/doi/10.1021/acs.jcim.6b00740)
+
+(2017) [Gain‐of‐function mutations in G‐protein–coupled receptor genes associated with human endocrine disorders](https://onlinelibrary.wiley.com/doi/abs/10.1111/cen.13496)
+
+(2015) [Implausibility of the vibrational theory of olfaction](https://www.pnas.org/content/112/21/E2766)
+
+(2014) [Chaperoning G Protein-Coupled Receptors: From Cell Biology to Therapeutics](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4105357/)
+
+(2014) [A computational microscope focused on the sense of smell](https://www.sciencedirect.com/science/article/pii/S0300908414001497?via%3Dihub)
+
+(2014) [MRFalign: Protein Homology Detection through Alignment of Markov Random Fields](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003500)
+
+(2014) [Crystal structure of a common GPCR-binding interface for G protein and arrestin](https://www.nature.com/articles/ncomms5801)
+
+(2013) [The GPCR Network: a large-scale collaboration to determine human GPCR structure and function](https://www.nature.com/articles/nrd3859)
+
+(2012) [Molecular Docking: A powerful approach for structure-based drug discovery](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3151162/#:~:text=The%20docking%20process%20involves%20two,assessment%20of%20the%20binding%20affinity.)
+
+(2011) [Mimicking nature’s noses: From receptor deorphaning to olfactory biosensing](https://www.bio.fsu.edu/~dfadool/Troy4.pdf)
+
+(2011) [The structural basis for agonist and partial agonist action on a β(1)-adrenergic receptor](https://pubmed.ncbi.nlm.nih.gov/21228877/)
+
+(2009) [The structure and function of G-protein-coupled receptors](https://www.nature.com/articles/nature08144)
+
+(2009) [Amphipol-Assisted in Vitro Folding of G Protein-Coupled Receptors](https://pubs.acs.org/doi/10.1021/bi801729z)
+
+(2008) [Update on the olfactory receptor (OR) gene superfamily](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2752031/)
+
+(2007) [G-protein coupled receptor structure](https://www.sciencedirect.com/science/article/pii/S0005273606003889?via%3Dihub)
+
+(2005) [GPCR Folding and Maturation](https://link.springer.com/chapter/10.1007/978-1-59259-919-6_3) from [The G Protein-Coupled Receptors Handbook](https://link.springer.com/book/10.1007/978-1-59259-919-6)
+
+(2003) [The human olfactory receptor gene family](https://www.pnas.org/content/101/8/2584) - Linda Buck
+
+(1991) [A Novel Multigene Family May Encode Odorant Receptors: A Molecular Basis
+for Odor Recognition ](https://www.cell.com/cell/pdf/0092-8674(91)90418-X.pdf?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2F009286749190418X%3Fshowall%3Dtrue) - the Nobel prize winning paper
