@@ -6,7 +6,10 @@ A curated list of awesome protein folding frameworks, libraries, software and re
 
 
 - [Awesome Protein Folding](#awesome-protein-folding)
+    -  [Deep Learning Protein Folding](#deep-learning-protein-folding)
     -  [Useful References](#useful-references) 
+
+## Deep Learning Protein Folding
 
 [AlphaFold 14](https://www.predictioncenter.org/casp14/doc/presentations/2020_12_01_TS_predictor_AlphaFold2.pdf)
   * [:book: Paper](https://www.nature.com/articles/s41586-019-1923-7.epdf?author_access_token=Z_KaZKDqtKzbE7Wd5HtwI9RgN0jAjWel9jnR3ZoTv0MCcgAwHMgRx9mvLjNQdB2TlQQaa7l420UCtGo8vYQ39gg8lFWR9mAZtvsN_1PrccXfIbc6e-tGSgazNL_XdtQzn1PHfy21qdcxV7Pw-k3htw%3D%3D)
