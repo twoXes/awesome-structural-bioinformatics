@@ -12,7 +12,7 @@
   * [Illustrated Transformer](kjalammar.github.io/illustrated-transformer/)
   * [Transformers from Scratch](http://peterbloem.nl/blog/transformers)
 
-AlphaFold 13
+[AlphaFold 13](https://www.predictioncenter.org/CASP13/doc/presentations/Pred_CASP13-Structure-AlphaFold-Jumper.pdf)
   * [:floppy_disk: Code](https://github.com/deepmind/deepmind-research/tree/master/alphafold_casp13)
   * [:floppy_disk: Code](https://github.com/dellacortelab/prospr) - Prospr - Open Source Implementation
   * [:book: Prospr Paper](https://www.biorxiv.org/content/10.1101/830273v1) 
