@@ -2,6 +2,8 @@
 
 A curated list of awesome protein folding frameworks, libraries, software and resources.
 
+ > Structure-function relationships are the fundamental object of knowledge in protein chemistry; they allow us to rationally design drugs, engineer proteins with new functions, and understand why mutations cause disease. [source](https://www.chemistryworld.com/features/on-the-origin-of-proteins/3004719.article)
+
 ![Simpsons](simpsons.gif)
 
 
@@ -13,7 +15,6 @@ A curated list of awesome protein folding frameworks, libraries, software and re
     -  [Useful References](#useful-references) 
     -  [Z-A Protein Folding](#z-a-protein-folding) 
 
- > Structure-function relationships are the fundamental object of knowledge in protein chemistry; they allow us to rationally design drugs, engineer proteins with new functions, and understand why mutations cause disease. [source](https://www.chemistryworld.com/features/on-the-origin-of-proteins/3004719.article)
 
 ## Data Sources
 
