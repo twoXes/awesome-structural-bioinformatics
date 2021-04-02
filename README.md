@@ -61,7 +61,9 @@ cal terms the origination of just a single caterpillar or a tiny grass. - Immanu
 
 ![chemistry](chemistry.gif)
 
-[DeepQMC/PauliNet](https://deepqmc.github.io/index.html) -Deep-learning quantum Monte Carlo for electrons in real space
+### [DeepQMC/PauliNet](https://deepqmc.github.io/index.html) 
+
+*Deep-learning quantum Monte Carlo for electrons in real space*
 
   * [ :bookmark_tabs: Publication](https://arxiv.org/pdf/1909.08423.pdf): (2020) Deep-neural-network solution of the electronic Schrödinger equation
   * [:floppy_disk: Github](https://github.com/deepqmc/deepqmc)
