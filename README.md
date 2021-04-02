@@ -140,19 +140,6 @@ macro-molecular systems at the nanoscale"
 
 [CP2K](https://www.cp2k.org/) - Open Source Molecular Dynamics 
 
-## Molecular Docking Tools 
-
-[AutoDock](http://autodock.scripps.edu/)
-
-[AutoDock Vina](http://vina.scripps.edu/)
-
-[Smina](https://github.com/mwojcikowski/smina)
-
-[Gnina](https://github.com/gnina/gnina) - deep learning framework for molecular docking -inside deepchem (/dock/pose_generation.py)
-
-[GOMoDo](https://gomodo.grs.kfa-juelich.de/php/about.php) - GPCR online modeling and docking server
-
-
 ## Useful References
 
 (2020) [High-Throughput Docking Using Quantum Mechanical Scoring](https://www.frontiersin.org/articles/10.3389/fchem.2020.00246/full)
