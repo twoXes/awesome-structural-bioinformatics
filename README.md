@@ -68,18 +68,24 @@ cal terms the origination of just a single caterpillar or a tiny grass. - Immanu
   * [ :bookmark_tabs: Publication](https://arxiv.org/pdf/1909.08423.pdf): (2020) Deep-neural-network solution of the electronic Schrödinger equation
   * [:floppy_disk: Github](https://github.com/deepqmc/deepqmc)
 
-[FermiNet](https://deepmind.com/blog/article/FermiNet) - Implementation of the Fermionic Neural Network for ab-initio electronic structure calculations 
+### [FermiNet](https://deepmind.com/blog/article/FermiNet)
+
+*Implementation of the Fermionic Neural Network for ab-initio electronic structure calculations*
 
   * [:bookmark_tabs: Publication](https://arxiv.org/abs/1909.02487): (2020) Ab-Initio Solution of the Many-Electron Schrödinger Equation with Deep Neural Networks
 
   * [:floppy_disk: GitHub Code](https://github.com/deepmind/ferminet)
 
-[Hande](http://www.hande.org.uk/ent) - Highly parallel code for stochastic quantum chemistry. Can be used as standalone program or library from an existing quantum chemistry code.
+### [Hande](http://www.hande.org.uk/ent)
+
+*Highly parallel code for stochastic quantum chemistry. Can be used as standalone program or library from an existing quantum chemistry code.*
 
   * [:bookmark_tabs:  Publication](https://pubs.acs.org/doi/10.1021/acs.jctc.8b01217)
   * [:floppy_disk: : GitHub](https://github.com/hande-qmc/hande)
 
-[PySCF](http://pyscf.org/) - simple, lightweight, and efficient python platform for quantum chemistry calculations and methodology development.
+### [PySCF](http://pyscf.org/) 
+
+*Simple, lightweight, and efficient python platform for quantum chemistry calculations and methodology development.*
 
   * [:bookmark_tabs: Publication](https://authors.library.caltech.edu/74078/1/1701.08223.pdf)
   * [:bookmark_tabs: Documentation](http://pyscf.org/pyscf/overview.html)
