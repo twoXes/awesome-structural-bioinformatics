@@ -47,7 +47,7 @@ cal terms the origination of just a single caterpillar or a tiny grass. - Immanu
   * [:book: Prospr Paper](https://www.biorxiv.org/content/10.1101/830273v1) 
   * [AlphaFold @ Casp13: What Just Happened?](https://moalquraishi.wordpress.com/2018/12/09/alphafold-casp13-what-just-happened/) 
 
-### [MiniFold](https://github.com/hypnopump/MiniFold) - Open Source AlphaFold 13 algorithm
+### [MiniFold](https://github.com/hypnopump/MiniFold) - Open Source toy example of AlphaFold 13 algorithm 
 
 > The DeepMind work presented @ CASP was not a technological breakthrough (they did not invent any new type of AI) but an engineering one: they applied well-known AI algorithms to a problem along with lots of data and computing power and found a great solution through model design, feature engineering, model ensembling and so on...
 
@@ -233,4 +233,6 @@ There is a score function and a fast method for producing the best possible sequ
 ### Probability 
 
 ![Probably](probably.gif)
+
+### Multiple Sequence Alignments (MSA) 
 
