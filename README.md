@@ -45,6 +45,9 @@ cal terms the origination of just a single caterpillar or a tiny grass. - Immanu
   * [:book: Prospr Paper](https://www.biorxiv.org/content/10.1101/830273v1) 
   * [AlphaFold @ Casp13: What Just Happened?](https://moalquraishi.wordpress.com/2018/12/09/alphafold-casp13-what-just-happened/) 
 
+[MiniFold](https://github.com/hypnopump/MiniFold) - Open Source AlphaFold 13 algorithm
+
+
 ## Molecular Docking Tools
 
 *Tools for exploring how two or more molecular structures fit together*
