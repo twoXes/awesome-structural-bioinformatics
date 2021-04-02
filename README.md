@@ -92,17 +92,17 @@ cal terms the origination of just a single caterpillar or a tiny grass. - Immanu
   * [:floppy_disk: Github](https://github.com/pyscf/pyscf)
   * [:floppy_disk: mpi4pyscf](https://github.com/pyscf/mpi4pyscf) - Message Passing Interface parallelism
 
-[PSi4](https://psicode.org/) - suite of ab initio quantum chemistry programs designed for efficient, high-accuracy simulations of molecular properties
+### [PSi4](https://psicode.org/) 
+
+*Suite of ab initio quantum chemistry programs designed for efficient, high-accuracy simulations of molecular properties*
 
   * [:bookmark_tabs: Documentation](https://psicode.org/psi4manual/master/index.html)
   * [:floppy_disk: Github](https://github.com/psi4/psi4/)
 
-[QMCTorch](https://qmctorch.readthedocs.io/en/latest/) - Pytorch Implementation of Real Space Quantum Monte Carlo Simulations of Molecular Systems 
+### [QMCTorch](https://qmctorch.readthedocs.io/en/latest/) 
 
+*Pytorch Implementation of Real Space Quantum Monte Carlo Simulations of Molecular Systems*
   * [:floppy_disk: Github](https://github.com/NLESC-JCER/QMCTorch)
-
-
-
 
 
 ### Tools 
