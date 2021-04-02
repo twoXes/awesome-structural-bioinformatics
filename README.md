@@ -26,6 +26,8 @@ cal terms the origination of just a single caterpillar or a tiny grass. - Immanu
 
 [Protein Data Bank](https://www.rcsb.org/)
 
+[UniProt](https://www.uniprot.org/) -  comprehensive, high-quality and freely accessible resource of protein sequence and functional information.
+
 ## Deep Learning Protein Folding
 
 [AlphaFold 14](https://www.predictioncenter.org/casp14/doc/presentations/2020_12_01_TS_predictor_AlphaFold2.pdf)
