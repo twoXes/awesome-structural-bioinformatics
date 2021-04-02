@@ -3,10 +3,7 @@
 A curated list of awesome protein folding frameworks, libraries, software and resources.
 
  > Structure-function relationships are the fundamental object of knowledge in protein chemistry; they allow us to rationally design drugs, engineer proteins with new functions, and understand why mutations cause disease. [source](https://www.chemistryworld.com/features/on-the-origin-of-proteins/3004719.article)
- 
-> So let it not look strange if I claim that it is much easier to explain the
-movement of the giant celestial bodies than to interpret in mechani-
-cal terms the origination of just a single caterpillar or a tiny grass. - Immanuel Kant, Natural History and the Theory of Heaven, 1755
+
 
 ![Simpsons](simpsons.gif)
 
@@ -177,6 +174,10 @@ macro-molecular systems at the nanoscale"
 (2005) [GPCR Folding and Maturation](https://link.springer.com/chapter/10.1007/978-1-59259-919-6_3) from [The G Protein-Coupled Receptors Handbook](https://link.springer.com/book/10.1007/978-1-59259-919-6)
 
 ## Z-A Protein Folding 
+
+> So let it not look strange if I claim that it is much easier to explain the
+movement of the giant celestial bodies than to interpret in mechani-
+cal terms the origination of just a single caterpillar or a tiny grass. - Immanuel Kant, *Natural History and the Theory of Heaven*, 1755
 
 ## Why Z-A Awesome Protein Folding? 
 
