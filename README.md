@@ -49,7 +49,9 @@ cal terms the origination of just a single caterpillar or a tiny grass. - Immanu
 
 ### [MiniFold](https://github.com/hypnopump/MiniFold) - Open Source AlphaFold 13 algorithm
 
-> The DeepMind work presented @ CASP was not a technological breakthrough (they did not invent any new type of AI) but an engineering one: they applied well-known AI algorithms to a problem along with lots of data and computing power and found a great solution through model design, feature engineering, model ensembling and so on. 
+> The DeepMind work presented @ CASP was not a technological breakthrough (they did not invent any new type of AI) but an engineering one: they applied well-known AI algorithms to a problem along with lots of data and computing power and found a great solution through model design, feature engineering, model ensembling and so on...
+
+> Two different residual neural networks (ResNets) are used to predict angles between adjacent aminoacids (AAs) and distance between every pair of AAs of a protein. For distance prediction a 2D Resnet was used while for angles prediction a 1D Resnet was used.
 
 ![MiniFold](minifold.png)
 
