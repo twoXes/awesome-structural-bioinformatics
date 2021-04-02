@@ -30,7 +30,8 @@ cal terms the origination of just a single caterpillar or a tiny grass. - Immanu
 
 ## Deep Learning Protein Folding
 
-[AlphaFold 14](https://www.predictioncenter.org/casp14/doc/presentations/2020_12_01_TS_predictor_AlphaFold2.pdf)
+### [AlphaFold 14](https://www.predictioncenter.org/casp14/doc/presentations/2020_12_01_TS_predictor_AlphaFold2.pdf)
+
   * [:book: Paper](https://www.nature.com/articles/s41586-019-1923-7.epdf?author_access_token=Z_KaZKDqtKzbE7Wd5HtwI9RgN0jAjWel9jnR3ZoTv0MCcgAwHMgRx9mvLjNQdB2TlQQaa7l420UCtGo8vYQ39gg8lFWR9mAZtvsN_1PrccXfIbc6e-tGSgazNL_XdtQzn1PHfy21qdcxV7Pw-k3htw%3D%3D)
   * [:newspaper: article](https://deepmind.com/blog/article/AlphaFold-Using-AI-for-scientific-discovery)
   * [AlpahFold 14 Results Discussion](https://dasher.wustl.edu/bio5357/discussion/oxford-alphafold2.pdf)
@@ -39,14 +40,16 @@ cal terms the origination of just a single caterpillar or a tiny grass. - Immanu
   * [Illustrated Transformer](kjalammar.github.io/illustrated-transformer/)
   * [Transformers from Scratch](http://peterbloem.nl/blog/transformers)
 
-[AlphaFold 13](https://www.predictioncenter.org/CASP13/doc/presentations/Pred_CASP13-Structure-AlphaFold-Jumper.pdf)
+### [AlphaFold 13](https://www.predictioncenter.org/CASP13/doc/presentations/Pred_CASP13-Structure-AlphaFold-Jumper.pdf)
+
   * [:floppy_disk: Code](https://github.com/deepmind/deepmind-research/tree/master/alphafold_casp13)
   * [:floppy_disk: Code](https://github.com/dellacortelab/prospr) - Prospr - Open Source Implementation
   * [:book: Prospr Paper](https://www.biorxiv.org/content/10.1101/830273v1) 
   * [AlphaFold @ Casp13: What Just Happened?](https://moalquraishi.wordpress.com/2018/12/09/alphafold-casp13-what-just-happened/) 
 
-[MiniFold](https://github.com/hypnopump/MiniFold) - Open Source AlphaFold 13 algorithm
+### [MiniFold](https://github.com/hypnopump/MiniFold) - Open Source AlphaFold 13 algorithm
 
+> The DeepMind work presented @ CASP was not a technological breakthrough (they did not invent any new type of AI) but an engineering one: they applied well-known AI algorithms to a problem along with lots of data and computing power and found a great solution through model design, feature engineering, model ensembling and so on. 
 
 ## Molecular Docking Tools
 
