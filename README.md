@@ -234,9 +234,13 @@ There is a score function and a fast method for producing the best possible sequ
 
 ![Probably](probably.gif)
 
+### NMR 
+
 ### Multiple Sequence Alignments (MSA) 
 
 ### B Sheets 
+
+### Amino Acids
 
 ### Alpha Helix 
 
