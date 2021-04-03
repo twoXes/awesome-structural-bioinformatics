@@ -24,6 +24,8 @@ A curated list of awesome protein folding frameworks, libraries, software and re
 
 [CATH/Gene3D](https://www.cathdb.info/) - 151 Million Protein Domains Classified into 5,481 Superfamilies
 
+[NCBI Conserved Domains Database](https://www.ncbi.nlm.nih.gov/Structure/cdd/wrpsb.cgi) - resource for the annotation of functional units in proteins
+
 [Protein Data Bank](https://www.rcsb.org/)
 
 [Scop 2](https://scop.mrc-lmb.cam.ac.uk/) - Structural Classification of Proteins
