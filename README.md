@@ -22,7 +22,11 @@ A curated list of awesome protein folding frameworks, libraries, software and re
 
 ![Prometheus](prometheus.gif)
 
+[CATH/Gene3D](https://www.cathdb.info/) - 151 Million Protein Domains Classified into 5,481 Superfamilies
+
 [Protein Data Bank](https://www.rcsb.org/)
+
+[Scop 2](https://scop.mrc-lmb.cam.ac.uk/) - Structural Classification of Proteins
 
 [UniProt](https://www.uniprot.org/) -  comprehensive, high-quality and freely accessible resource of protein sequence and functional information.
 
