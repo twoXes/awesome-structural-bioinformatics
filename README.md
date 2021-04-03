@@ -59,6 +59,16 @@ A curated list of awesome protein folding frameworks, libraries, software and re
 
 > Two different residual neural networks (ResNets) are used to predict angles between adjacent aminoacids (AAs) and distance between every pair of AAs of a protein. For distance prediction a 2D Resnet was used while for angles prediction a 1D Resnet was used.
 
+### PDNet
+
+> As deep learning algorithms drive the progress in protein structure prediction, a lot remains to be studied at this merging superhighway of deep learning and protein structure prediction. Recent findings show that inter-residue distance prediction, a more granular version of the well-known contact prediction problem, is a key to predicting accurate models. However, deep learning methods that predict these distances are still in the early stages of their development. To advance these methods and develop other novel methods, a need exists for a small and representative dataset packaged for faster development and testing. In this work, we introduce protein distance net (PDNET), a framework that consists of one such representative dataset along with the scripts for training and testing deep learning methods. The framework also includes all the scripts that were used to curate the dataset, and generate the input features and distance maps.
+
+[:desktop: Github](https://github.com/ba-lab/pdnet/)
+
+[:book: Paper](https://www.nature.com/articles/s41598-020-70181-0) 
+
+[:vhs: YouTube](https://youtu.be/uAIuA1O7iE8)
+
 ## Molecular Docking Tools
 
 *Tools for exploring how two or more molecular structures fit together*
@@ -127,16 +137,6 @@ A curated list of awesome protein folding frameworks, libraries, software and re
 
 
 ### Tools 
-
-### PDNet
-
-> As deep learning algorithms drive the progress in protein structure prediction, a lot remains to be studied at this merging superhighway of deep learning and protein structure prediction. Recent findings show that inter-residue distance prediction, a more granular version of the well-known contact prediction problem, is a key to predicting accurate models. However, deep learning methods that predict these distances are still in the early stages of their development. To advance these methods and develop other novel methods, a need exists for a small and representative dataset packaged for faster development and testing. In this work, we introduce protein distance net (PDNET), a framework that consists of one such representative dataset along with the scripts for training and testing deep learning methods. The framework also includes all the scripts that were used to curate the dataset, and generate the input features and distance maps.
-
-[:desktop: Github](https://github.com/ba-lab/pdnet/)
-
-[:book: Paper](https://www.nature.com/articles/s41598-020-70181-0) 
-
-[:vhs: YouTube](https://youtu.be/uAIuA1O7iE8)
 
 
 
