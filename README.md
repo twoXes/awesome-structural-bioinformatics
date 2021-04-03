@@ -13,6 +13,7 @@ A curated list of awesome protein folding frameworks, libraries, software and re
     -  [Deep Learning Protein Folding](#deep-learning-protein-folding)
     -  [Molecular Docking Tools](#molecular-docking-tools) 
     -  [Quantum Chemistry Tools](#quantum-chemistry-tools)
+    -  [StartUps](#startups)
     -  [Useful References](#useful-references) 
     -  [Z-A Protein Folding](#z-a-protein-folding) 
 
@@ -114,6 +115,11 @@ A curated list of awesome protein folding frameworks, libraries, software and re
 
 *Pytorch Implementation of Real Space Quantum Monte Carlo Simulations of Molecular Systems*
   * [:floppy_disk: Github](https://github.com/NLESC-JCER/QMCTorch)
+
+
+## Startups
+
+[PharmAi](https://www.pharm.ai/) -  identifies drug candidates based on the geometry of protein binding sites and their drug-target interactions.
 
 
 ### Tools 
