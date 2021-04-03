@@ -191,7 +191,7 @@ cal terms the origination of just a single caterpillar or a tiny grass. - Immanu
 
 ## Why Z-A Awesome Protein Folding? 
 
-Books on Cheminformatics, Bioinformatics, Quantum Chemistry strangle the subject to sleep 😴 and command a wild price 🤑 for the naps they induce.
+Books on Cheminformatics, [Bioinformatics](http://thegrantlab.org/teaching/material/Intro_Structural_Bioinformatics_Barry.pdf), Quantum Chemistry strangle the subject to sleep 😴 and command a wild price 🤑 for the naps they induce.
 
 Want a better way to learn than some random repo on github? 
 
