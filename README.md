@@ -13,13 +13,13 @@ The protein folding problem consists of three closely related puzzles:
 * (b) What is the folding mechanism?
 * (c) Can we predict the native structure of a protein from its amino acid sequence? [source](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2443096/)
 
-    -  [Data Sources](#data-sources)
-    -  [Deep Learning Protein Folding](#deep-learning-protein-folding)
-    -  [Molecular Docking Tools](#molecular-docking-tools) 
-    -  [Quantum Chemistry Tools](#quantum-chemistry-tools)
-    -  [StartUps](#startups)
-    -  [Useful References](#useful-references) 
-    -  [Z-A Protein Folding](#z-a-protein-folding) 
+ - [Data Sources](#data-sources)
+ - [Deep Learning Protein Folding](#deep-learning-protein-folding)
+ -  [Molecular Docking Tools](#molecular-docking-tools) 
+ -  [Quantum Chemistry Tools](#quantum-chemistry-tools)
+ -  [StartUps](#startups)
+ -  [Useful References](#useful-references) 
+ -  [Z-A Protein Folding](#z-a-protein-folding) 
 
 
 ## Data Sources
