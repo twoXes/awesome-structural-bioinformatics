@@ -12,6 +12,7 @@ The protein folding problem consists of three closely related puzzles:
 * (b) What is the folding mechanism?
 * (c) Can we predict the native structure of a protein from its amino acid sequence? [source](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2443096/)
 
+There is now a testable explanation for how a protein can fold so quickly: A protein solves its large global optimization problem as a series of smaller local optimization problems, growing and assembling the native structure from peptide fragments, local structures first.[source](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2443096/)
 
 - [Awesome Protein Folding](#awesome-protein-folding)
     -  [Data Sources](#data-sources)
