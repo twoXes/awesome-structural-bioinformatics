@@ -93,6 +93,8 @@ The protein folding problem consists of three closely related puzzles:
 
 ![chemistry](chemistry.gif)
 
+[NWChem](https://www.nwchem-sw.org/)
+
 ### [DeepQMC/PauliNet](https://deepqmc.github.io/index.html) 
 
 *Deep-learning quantum Monte Carlo for electrons in real space*
