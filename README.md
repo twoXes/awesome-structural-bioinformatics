@@ -201,6 +201,25 @@ macro-molecular systems at the nanoscale"
 
 (2005) [GPCR Folding and Maturation](https://link.springer.com/chapter/10.1007/978-1-59259-919-6_3) from [The G Protein-Coupled Receptors Handbook](https://link.springer.com/book/10.1007/978-1-59259-919-6)
 
+
+## Other Free Books You Should Read Instead of This Repo
+
+[Chemisty 2E](https://openstax.org/details/books/chemistry-2e) - :atom: Equivalent to 201 & 202 Level Chemistry Book
+
+[Chemistry: Atoms First 2E](https://openstax.org/details/books/chemistry-atoms-first-2e) :atom: Fork of 2E but not with more Atoms!!!!
+
+[Biology 2E](https://openstax.org/details/books/biology-2e) 👽 Like Chemistry 2E but Biology 
+
+[Artificial Intelligence: A Modern Approach]( https://github.com/aimacode/aima-python) 🤖 The Gospel of Machine Learning
+
+[Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/) 🤖 Michael Nielsen writes another masterpiece - About Deep Learning - if you are into that sort of thing. 
+
+[Reinforcement Learning](http://incompleteideas.net/book/RLbook2020.pdf) 🤖  The only book you need on the subject 
+
+[Pattern Recognition and Machine Learning](https://www.microsoft.com/en-us/research/uploads/prod/2006/01/Bishop-Pattern-Recognition-and-Machine-Learning-2006.pdf) 🤖 Another classic banger
+
+
+
 ## Z-A Protein Folding 
 
 > So let it not look strange if I claim that it is much easier to explain the
@@ -220,23 +239,6 @@ Or feed yourself 🍼.
 Knoweldge should be cheap, fast enjoyable, silly, shared, disproven, contested, and most of all free.
 
 knowledge hodlers, and innovation stifflers are boring and old. this is for the young of mind and young of spirit 🚼 that love to fold. 
-
-## Other Free Books You Should Read Instead of This Repo
-
-[Chemisty 2E](https://openstax.org/details/books/chemistry-2e) - :atom: Equivalent to 201 & 202 Level Chemistry Book
-
-[Chemistry: Atoms First 2E](https://openstax.org/details/books/chemistry-atoms-first-2e) :atom: Fork of 2E but not with more Atoms!!!!
-
-[Biology 2E](https://openstax.org/details/books/biology-2e) 👽 Like Chemistry 2E but Biology 
-
-[Artificial Intelligence: A Modern Approach]( https://github.com/aimacode/aima-python) 🤖 The Gospel of Machine Learning
-
-[Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/) 🤖 Michael Nielsen writes another masterpiece - About Deep Learning - if you are into that sort of thing. 
-
-[Reinforcement Learning](http://incompleteideas.net/book/RLbook2020.pdf) 🤖  The only book you need on the subject 
-
-[Pattern Recognition and Machine Learning](https://www.microsoft.com/en-us/research/uploads/prod/2006/01/Bishop-Pattern-Recognition-and-Machine-Learning-2006.pdf) 🤖 Another classic banger
-
 
 ### Scoring Function 
 
@@ -260,18 +262,19 @@ Allowing gaps and insertions at any position and of any length leads to a combin
 There is a score function and a fast method for producing the best possible sequence to structure alignments and thus the best models possible. Unfortunately, the problem is still not solved
 
 ### Probability 
-
+*Coming Soon*
 ![Probably](probably.gif)
 
 ### NMR 
-
+*Coming Soon*
 ### Multiple Sequence Alignments (MSA) 
-
+*Coming Soon*
 ### Coupled Clustering
-
+*Coming Soon*
 ### B Sheets 
-
+*Coming Soon*
 ### Amino Acids
-
+*Coming Soon*
 ### Alpha Helix 
+*Coming Soon*
 
