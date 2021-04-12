@@ -263,6 +263,8 @@ There is a score function and a fast method for producing the best possible sequ
 
 ### Multiple Sequence Alignments (MSA) 
 
+### Coupled Clustering
+
 ### B Sheets 
 
 ### Amino Acids
