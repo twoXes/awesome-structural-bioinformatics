@@ -165,6 +165,10 @@ macro-molecular systems at the nanoscale"
 
 [CP2K](https://www.cp2k.org/) - Open Source Molecular Dynamics 
 
+## Projects
+
+[Fold@Home](https://foldingathome.org/about/)
+
 ## Useful References
 
 (2020) [High-Throughput Docking Using Quantum Mechanical Scoring](https://www.frontiersin.org/articles/10.3389/fchem.2020.00246/full)
