@@ -141,57 +141,6 @@ There is a score function and a fast method for producing the best possible sequ
 [Smina](https://github.com/mwojcikowski/smina) used for minimization (local_only) as opposed to of docking, makes Vina much easer to use and 10-20x faster. Docking performance is about the same since partial charge calculation and file i/o isn't such a big part of the performance.
 
 
-
-## Quantum Chemistry Tools 
-
-![chemistry](chemistry.gif)
-
-[NWChem](https://www.nwchem-sw.org/)
-
-### [DeepQMC/PauliNet](https://deepqmc.github.io/index.html) 
-
-*Deep-learning quantum Monte Carlo for electrons in real space*
-
-  * [ :bookmark_tabs: Publication](https://arxiv.org/pdf/1909.08423.pdf): (2020) Deep-neural-network solution of the electronic Schrödinger equation
-  * [:floppy_disk: Github](https://github.com/deepqmc/deepqmc)
-
-### [FermiNet](https://deepmind.com/blog/article/FermiNet)
-
-*Implementation of the Fermionic Neural Network for ab-initio electronic structure calculations*
-
-  * [:bookmark_tabs: Publication](https://arxiv.org/abs/1909.02487): (2020) Ab-Initio Solution of the Many-Electron Schrödinger Equation with Deep Neural Networks
-
-  * [:floppy_disk: GitHub Code](https://github.com/deepmind/ferminet)
-
-### [Hande](http://www.hande.org.uk/ent)
-
-*Highly parallel code for stochastic quantum chemistry. Can be used as standalone program or library from an existing quantum chemistry code.*
-
-  * [:bookmark_tabs:  Publication](https://pubs.acs.org/doi/10.1021/acs.jctc.8b01217)
-  * [:floppy_disk: : GitHub](https://github.com/hande-qmc/hande)
-
-### [PySCF](http://pyscf.org/) 
-
-*Simple, lightweight, and efficient python platform for quantum chemistry calculations and methodology development.*
-
-  * [:bookmark_tabs: Publication](https://authors.library.caltech.edu/74078/1/1701.08223.pdf)
-  * [:bookmark_tabs: Documentation](http://pyscf.org/pyscf/overview.html)
-  * [:floppy_disk: Github](https://github.com/pyscf/pyscf)
-  * [:floppy_disk: mpi4pyscf](https://github.com/pyscf/mpi4pyscf) - Message Passing Interface parallelism
-
-### [PSi4](https://psicode.org/) 
-
-*Suite of ab initio quantum chemistry programs designed for efficient, high-accuracy simulations of molecular properties*
-
-  * [:bookmark_tabs: Documentation](https://psicode.org/psi4manual/master/index.html)
-  * [:floppy_disk: Github](https://github.com/psi4/psi4/)
-
-### [QMCTorch](https://qmctorch.readthedocs.io/en/latest/) 
-
-*Pytorch Implementation of Real Space Quantum Monte Carlo Simulations of Molecular Systems*
-  * [:floppy_disk: Github](https://github.com/NLESC-JCER/QMCTorch)
-
-
 ## Useful References
 
 (2020) [High-Throughput Docking Using Quantum Mechanical Scoring](https://www.frontiersin.org/articles/10.3389/fchem.2020.00246/full)
