@@ -114,12 +114,6 @@ binding sites for the second object, which we will call the “ligand”. Our go
 the six degrees of freedom (3 translations and 3 orientations) that determine the
 best relative positions of the two objects.
 
-A very interesting problem with docking is described in the paper that points to the need to mix the scoring functioon of docking with quantum chemical methods: 
-
->. The relationship between the manipulations and simple scoring schemes used here, and energy optimization techniques needs to be established. A major concern
-is the use of united atoms instead of explicit hydrogen atoms. The surfaces will certainly be modified somewhat when hydrogen atoms are introduced. Further. the
-local energy terms will be altered significantly
-
 ---
 
 > A common approach to docking combines a scoring function with an optimization algorithm. The scoring function quantifies the favorability of the protein-ligand interactions in a single pose, whichcan be conceptualized as a point in a continuous conformation space. A stochastic global optimization algorithm is used to explore and sample this conformation space. Then, local optimization is employed on the sampled points, usually by iteratively adjusting the pose in search of a local extremum of the scoring function. Ideally, the scoring function is differentiable to support efficient gradient-based optimization.
