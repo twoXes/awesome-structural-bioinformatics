@@ -12,9 +12,9 @@ Spend 4-12 years of your life and hundreds of thousands of dollars chasing a pap
 
 Or feed yourself 🍼.
 
-Knoweldge should be cheap, fast enjoyable, silly, shared, disproven, contested, and most of all free.
+Information should be cheap, fast enjoyable, silly, shared, disproven, contested, and most of all free.
 
-knowledge hodlers, and innovation stifflers are boring and old. this is for the young of mind and young of spirit 🚼 that love to dock & fold. 
+Knowledge hodlers, and innovation stifflers are boring and old. This is for the young of mind and young of spirit 🚼 that love to dock & fold. 
 
 
 # Folding
