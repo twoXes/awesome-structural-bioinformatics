@@ -2,6 +2,21 @@
 
 *A curated list of awesome structural bioinformatics frameworks, libraries, software and resources.*
 
+> So let it not look strange if I claim that it is much easier to explain the movement of the giant celestial bodies than to interpret in mechanical terms the origination of just a single caterpillar or a tiny grass. - Immanuel Kant, *Natural History and the Theory of Heaven*, 1755
+
+Books on Cheminformatics, [Bioinformatics](http://thegrantlab.org/teaching/material/Intro_Structural_Bioinformatics_Barry.pdf), Quantum Chemistry strangle the subject to sleep 😴 and command a wild price 🤑 for the naps they induce.
+
+Want a better way to learn than some random repo on github? 
+
+Spend 4-12 years of your life and hundreds of thousands of dollars chasing a paper with a stamp on it 🥇.
+
+Or feed yourself 🍼.
+
+Knoweldge should be cheap, fast enjoyable, silly, shared, disproven, contested, and most of all free.
+
+knowledge hodlers, and innovation stifflers are boring and old. this is for the young of mind and young of spirit 🚼 that love to dock & fold. 
+
+
 # Folding
 
  > Structure-function relationships are the fundamental object of knowledge in protein chemistry; they allow us to rationally design drugs, engineer proteins with new functions, and understand why mutations cause disease. [- On The Origin of Proteins](https://www.chemistryworld.com/features/on-the-origin-of-proteins/3004719.article)
@@ -73,6 +88,28 @@ The protein folding problem consists of three closely related puzzles:
 
 # Docking
 
+
+## Scoring Function 
+
+![Goal](goal.gif)
+
+ There are two common approaches to building a score function: 
+* **potentials of mean force**
+    * often called statistics- or Boltzmann-based force fields
+    * measuring distance as a reflection of statistical tendencies within proteins
+    * . One takes a large set of proteins, collects statistics and converts them to a score function. One then expects this function to work well for proteins not included in its parameterisation. 
+* **an optimization calculation**
+   * select underlying basis function 
+      * quasi-Lennard-Jones 
+      * various sigmoidal functions 
+   * We can say that the correct structure is whatever is given in the protein data bank, but unfortunately, there is almost an infinity of incorrect structures for a sequence and one would like the score function to penalize all of them
+  *  One way to encode this idea is to adopt a statistical approach and try to consider the distribution of incorrect structures
+ [source](http://web.stanford.edu/class/cs273/refs/torda_chapter_proteomics.pdf)
+
+Allowing gaps and insertions at any position and of any length leads to a combinatorial explosion of possibilities. The calculation can be made tractable by restricting the search space and forbidding gaps except in recognised loops in template structures.
+
+There is a score function and a fast method for producing the best possible sequence to structure alignments and thus the best models possible. Unfortunately, the problem is still not solved
+
 ##  Tools
 
 *Tools for exploring how two or more molecular structures fit together*
@@ -88,6 +125,8 @@ The protein folding problem consists of three closely related puzzles:
 [GOMoDo](https://gomodo.grs.kfa-juelich.de/php/about.php) - GPCR online modeling and docking server
 
 [Smina](https://github.com/mwojcikowski/smina) used for minimization (local_only) as opposed to of docking, makes Vina much easer to use and 10-20x faster. Docking performance is about the same since partial charge calculation and file i/o isn't such a big part of the performance.
+
+
 
 ## Quantum Chemistry Tools 
 
@@ -185,46 +224,3 @@ The protein folding problem consists of three closely related puzzles:
 [Reinforcement Learning](http://incompleteideas.net/book/RLbook2020.pdf) 🤖  The only book you need on the subject 
 
 [Pattern Recognition and Machine Learning](https://www.microsoft.com/en-us/research/uploads/prod/2006/01/Bishop-Pattern-Recognition-and-Machine-Learning-2006.pdf) 🤖 Another classic banger
-
-
-## Z-A Protein Folding 
-
-> So let it not look strange if I claim that it is much easier to explain the
-movement of the giant celestial bodies than to interpret in mechani-
-cal terms the origination of just a single caterpillar or a tiny grass. - Immanuel Kant, *Natural History and the Theory of Heaven*, 1755
-
-## Why Z-A Awesome Protein Folding? 
-
-Books on Cheminformatics, [Bioinformatics](http://thegrantlab.org/teaching/material/Intro_Structural_Bioinformatics_Barry.pdf), Quantum Chemistry strangle the subject to sleep 😴 and command a wild price 🤑 for the naps they induce.
-
-Want a better way to learn than some random repo on github? 
-
-Spend 4-12 years of your life and hundreds of thousands of dollars chasing a paper with a stamp on it 🥇.
-
-Or feed yourself 🍼.
-
-Knoweldge should be cheap, fast enjoyable, silly, shared, disproven, contested, and most of all free.
-
-knowledge hodlers, and innovation stifflers are boring and old. this is for the young of mind and young of spirit 🚼 that love to fold. 
-
-### Scoring Function 
-
-![Goal](goal.gif)
-
- There are two common approaches to building a score function: 
-* **potentials of mean force**
-    * often called statistics- or Boltzmann-based force fields
-    * measuring distance as a reflection of statistical tendencies within proteins
-    * . One takes a large set of proteins, collects statistics and converts them to a score function. One then expects this function to work well for proteins not included in its parameterisation. 
-* **an optimization calculation**
-   * select underlying basis function 
-      * quasi-Lennard-Jones 
-      * various sigmoidal functions 
-   * We can say that the correct structure is whatever is given in the protein data bank, but unfortunately, there is almost an infinity of incorrect structures for a sequence and one would like the score function to penalize all of them
-  *  One way to encode this idea is to adopt a statistical approach and try to consider the distribution of incorrect structures
- [source](http://web.stanford.edu/class/cs273/refs/torda_chapter_proteomics.pdf)
-
-Allowing gaps and insertions at any position and of any length leads to a combinatorial explosion of possibilities. The calculation can be made tractable by restricting the search space and forbidding gaps except in recognised loops in template structures.
-
-There is a score function and a fast method for producing the best possible sequence to structure alignments and thus the best models possible. Unfortunately, the problem is still not solved
-
