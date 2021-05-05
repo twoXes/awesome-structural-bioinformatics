@@ -88,6 +88,16 @@ The protein folding problem consists of three closely related puzzles:
 
 # Docking
 
+
+"Docking is a method which predicts the prefered orientation of one molecule to a second when bound to each other to form a stable complex. Knoweldge of the prefered orientation in turn may be used to predict the strength of association or binding affinity between two molecules using scoring functions."
+
+* Pose - A conformation of the receptor and ligand molecules showing some intermolecular interactions (which may include hydrogen bonds as well as hydrophobic contacts
+* Posings - The process of searching for a pose in which there are favorable interactions between the receptor and the ligand molecules.
+* Scoring - The process of evaluating a particular pose using a number of descriptive features like number of intermolecular interactions including hydrogen bonds and hydrophobic contacts.
+
+The primary factors that lead to a successful docking are: 
+
+
 One of the first appearances of Molecular Docking is said to have been 1982's 
 
 ## [A Geometric Approach to MacroMolecule Ligand Interactions](https://www.sciencedirect.com/science/article/abs/pii/002228368290153X#:~:text=A%20geometric%20approach%20to%20macromolecule%2Dligand%20interactions%E2%98%86&text=Algorithms%20are%20presented%20that%20examine,sites%20on%20a%20macromolecular%20surface.)
@@ -108,15 +118,7 @@ A very interesting problem with docking is described in the paper that points to
 
 >. The relationship between the manipulations and simple scoring schemes used here, and energy optimization techniques needs to be established. A major concern
 is the use of united atoms instead of explicit hydrogen atoms. The surfaces will certainly be modified somewhat when hydrogen atoms are introduced. Further. the
-local energy terms will be altered significantly.
-
-"Docking is a method which predicts the prefered orientation of one molecule to a second when bound to each other to form a stable complex. Knoweldge of the prefered orientation in turn may be used to predict the strength of association or binding affinity between two molecules using scoring functions."
-
-* Pose - A conformation of the receptor and ligand molecules showing some intermolecular interactions (which may include hydrogen bonds as well as hydrophobic contacts
-* Posing - The process of searching for a pose in which there are favorable interactions between the receptor and the ligand molecules.
-* Scoring - The process of evaluating a particular pose using a number of descriptive features like number of intermolecular interactions including hydrogen bonds and hydrophobic contacts.
-
-Virtual screening = target structure scored with molecules from database to identify potential activies. 
+local energy terms will be altered significantly
 
 > A common approach to docking combines a scoring function with an optimization algorithm. The scoring function quantifies the favorability of the protein-ligand interactions in a single pose, whichcan be conceptualized as a point in a continuous conformation space. A stochastic global optimization algorithm is used to explore and sample this conformation space. Then, local optimization is employed on the sampled points, usually by iteratively adjusting the pose in search of a local extremum of the scoring function. Ideally, the scoring function is differentiable to support efficient gradient-based optimization.
 
@@ -164,6 +166,8 @@ There is a score function and a fast method for producing the best possible sequ
 
 
 # Virtual Screening
+
+Virtual screening = target structure scored with molecules from database to identify potential activies. 
 
 ## Useful References
 
