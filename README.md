@@ -88,9 +88,19 @@ The protein folding problem consists of three closely related puzzles:
 
 # Docking
 
-The first appearance of Molecular Docking is said to have been 1982's [A Geometric Approach to MacroMolecule Ligand Interactions](https://www.sciencedirect.com/science/article/abs/pii/002228368290153X#:~:text=A%20geometric%20approach%20to%20macromolecule%2Dligand%20interactions%E2%98%86&text=Algorithms%20are%20presented%20that%20examine,sites%20on%20a%20macromolecular%20surface.)
+One of the first appearances of Molecular Docking is said to have been 1982's [A Geometric Approach to MacroMolecule Ligand Interactions](https://www.sciencedirect.com/science/article/abs/pii/002228368290153X#:~:text=A%20geometric%20approach%20to%20macromolecule%2Dligand%20interactions%E2%98%86&text=Algorithms%20are%20presented%20that%20examine,sites%20on%20a%20macromolecular%20surface.)
 
 They tell us Molecular Docking = "To position two molecules so that they interact favorably with one another..."
+
+How???
+
+> Our approach is to reduce the number of degrees of freedom using simplifying
+assumptions that still retain some correspondence to a situation of biochemical
+interest. Specifically, we treat the geometric (hard sphere) interactions of two rigid
+bodies, where one body (the “receptor”) contains “pockets” or “grooves” that form
+binding sites for the second object, which we will call the “ligand”. Our goal is to fix
+the six degrees of freedom (3 translations and 3 orientations) that determine the
+best relative positions of the two objects.
 
 "Docking is a method which predicts the prefered orientation of one molecule to a second when bound to each other to form a stable complex. Knoweldge of the prefered orientation in turn may be used to predict the strength of association or binding affinity between two molecules using scoring functions."
 
