@@ -2,6 +2,8 @@
 
 *A curated list of awesome structural bioinformatics frameworks, libraries, software and resources.*
 
+# Folding
+
  > Structure-function relationships are the fundamental object of knowledge in protein chemistry; they allow us to rationally design drugs, engineer proteins with new functions, and understand why mutations cause disease. [- On The Origin of Proteins](https://www.chemistryworld.com/features/on-the-origin-of-proteins/3004719.article)
 
 > There is now a testable explanation for how a protein can fold so quickly: A protein solves its large global optimization problem as a series of smaller local optimization problems, growing and assembling the native structure from peptide fragments, local structures first. [- The Protein Folding Problem](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2443096/)
@@ -35,6 +37,8 @@ The protein folding problem consists of three closely related puzzles:
 [Scop 2](https://scop.mrc-lmb.cam.ac.uk/) - Structural Classification of Proteins
 
 [UniProt](https://www.uniprot.org/) -  comprehensive, high-quality and freely accessible resource of protein sequence and functional information.
+
+[Fold@Home](https://foldingathome.org/about/)
 
 ## Deep Learning Protein Folding
 
@@ -75,7 +79,9 @@ The protein folding problem consists of three closely related puzzles:
 
 [:vhs: YouTube](https://youtu.be/uAIuA1O7iE8)
 
-## Molecular Docking Tools
+# Docking
+
+##  Tools
 
 *Tools for exploring how two or more molecular structures fit together*
 
@@ -83,7 +89,7 @@ The protein folding problem consists of three closely related puzzles:
 
 [AutoDock Vina](http://vina.scripps.edu/) - significantly improves the average accuracy of the binding mode predictions compared to AutoDock
 
-* [ :book: Paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3041641/)
+* [:book: Paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3041641/)
 
 [Gnina](https://github.com/gnina/gnina) - deep learning framework for molecular docking -inside deepchem (/dock/pose_generation.py)
 
@@ -141,36 +147,6 @@ The protein folding problem consists of three closely related puzzles:
   * [:floppy_disk: Github](https://github.com/NLESC-JCER/QMCTorch)
 
 
-## Startups
-
-[PharmAi](https://www.pharm.ai/) -  identifies drug candidates based on the geometry of protein binding sites and their drug-target interactions.
-
-
-### Tools 
-
-[Blast](https://blast.ncbi.nlm.nih.gov/Blast.cgi) - Basic Local Alignment Search Tool finds regions of similarity between biological sequences.
-
-
-### [RaptorX](http://raptorx.uchicago.edu/)
-
-![raptor](uploads/39c0dab87900f9607e977afc2a04a026/raptor.gif)
-
-[Raptor Standalone Software](https://github.com/j3xugit/RaptorX-3DModeling)
-
-> RaptorX employs a nonlinear scoring function to combine homologous information (i.e., sequence profile) and structure information in a very flexible way. When proteins under consideration have high-quality sequence profile, RaptorX counts more on profile information, otherwise on structure information to improve alignment accuracy.... Our probabilistic model uses a regression-tree-based nonlinear scoring function to measure the similarity between two proteins. A regression tree consists of a collection of rules to calculate the probability of an alignment. We predict the absolute quality of a pairwise sequence-template alignment using neural network and then use the predicted quality to rank all the templates for a specific target.  Our old RAPTOR program uses an SVM method to predict the number of correctly aligned positions in an alignment
-
-### [trRosetta](https://yanglab.nankai.edu.cn/trRosetta/)
-
-
-[BigDFT](https://bigdft.org/) - GitLab [Repo](https://gitlab.com/l_sim/bigdft-suite) -DFT code for ab-initio atomistic simulation; "Open source software for innovative research of materials and
-macro-molecular systems at the nanoscale"
-
-[CP2K](https://www.cp2k.org/) - Open Source Molecular Dynamics 
-
-## Projects
-
-[Fold@Home](https://foldingathome.org/about/)
-
 ## Useful References
 
 (2020) [High-Throughput Docking Using Quantum Mechanical Scoring](https://www.frontiersin.org/articles/10.3389/fchem.2020.00246/full)
@@ -219,7 +195,6 @@ macro-molecular systems at the nanoscale"
 [Pattern Recognition and Machine Learning](https://www.microsoft.com/en-us/research/uploads/prod/2006/01/Bishop-Pattern-Recognition-and-Machine-Learning-2006.pdf) 🤖 Another classic banger
 
 
-
 ## Z-A Protein Folding 
 
 > So let it not look strange if I claim that it is much easier to explain the
@@ -260,21 +235,4 @@ knowledge hodlers, and innovation stifflers are boring and old. this is for the 
 Allowing gaps and insertions at any position and of any length leads to a combinatorial explosion of possibilities. The calculation can be made tractable by restricting the search space and forbidding gaps except in recognised loops in template structures.
 
 There is a score function and a fast method for producing the best possible sequence to structure alignments and thus the best models possible. Unfortunately, the problem is still not solved
-
-### Probability 
-*Coming Soon*
-![Probably](probably.gif)
-
-### NMR 
-*Coming Soon*
-### Multiple Sequence Alignments (MSA) 
-*Coming Soon*
-### Coupled Clustering
-*Coming Soon*
-### B Sheets 
-*Coming Soon*
-### Amino Acids
-*Coming Soon*
-### Alpha Helix 
-*Coming Soon*
 
