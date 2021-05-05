@@ -102,6 +102,12 @@ binding sites for the second object, which we will call the “ligand”. Our go
 the six degrees of freedom (3 translations and 3 orientations) that determine the
 best relative positions of the two objects.
 
+A very interesting problem with docking is described in the paper that points to the need to mix the scoring functioon of docking with quantum chemical methods: 
+
+>. The relationship between the manipulations and simple scoring schemes used here, and energy optimization techniques needs to be established. A major concern
+is the use of united atoms instead of explicit hydrogen atoms. The surfaces will certainly be modified somewhat when hydrogen atoms are introduced. Further. the
+local energy terms will be altered significantly.
+
 "Docking is a method which predicts the prefered orientation of one molecule to a second when bound to each other to form a stable complex. Knoweldge of the prefered orientation in turn may be used to predict the strength of association or binding affinity between two molecules using scoring functions."
 
 * Pose - A conformation of the receptor and ligand molecules showing some intermolecular interactions (which may include hydrogen bonds as well as hydrophobic contacts
