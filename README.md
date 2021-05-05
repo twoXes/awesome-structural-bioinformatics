@@ -143,6 +143,8 @@ There is a score function and a fast method for producing the best possible sequ
 [Smina](https://github.com/mwojcikowski/smina) used for minimization (local_only) as opposed to of docking, makes Vina much easer to use and 10-20x faster. Docking performance is about the same since partial charge calculation and file i/o isn't such a big part of the performance.
 
 
+# Virtual Screening
+
 ## Useful References
 
 (2020) [High-Throughput Docking Using Quantum Mechanical Scoring](https://www.frontiersin.org/articles/10.3389/fchem.2020.00246/full)
