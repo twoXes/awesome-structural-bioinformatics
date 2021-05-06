@@ -114,6 +114,20 @@ binding sites for the second object, which we will call the “ligand”. Our go
 the six degrees of freedom (3 translations and 3 orientations) that determine the
 best relative positions of the two objects.
 
+> Does the program reproduce known ligand-receptor geometries? If so, does it also provide alternative structures that are geometrically
+reasonable? To these ends, we have examined two systems for which the ligand receptor
+geometry has been established by crystallographic means.
+
+What is the result of this Docking? 
+
+> (1) Structures quite near the “correct” structures are readily recovered and
+identified as feasible solutions.
+> (2) Other families of structures are found that are geometrically reasonable and
+that can be tested by simple scoring schemes, chemical intuition, or visual
+inspection with computer graphics.
+
+> Without allowing molecular flexibility, many aspects of ligand-receptor interactions are not properly described.
+
 ---
 
 > A common approach to docking combines a scoring function with an optimization algorithm. The scoring function quantifies the favorability of the protein-ligand interactions in a single pose, whichcan be conceptualized as a point in a continuous conformation space. A stochastic global optimization algorithm is used to explore and sample this conformation space. Then, local optimization is employed on the sampled points, usually by iteratively adjusting the pose in search of a local extremum of the scoring function. Ideally, the scoring function is differentiable to support efficient gradient-based optimization.
