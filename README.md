@@ -95,6 +95,36 @@ The protein folding problem consists of three closely related puzzles:
 * Posings - The process of searching for a pose in which there are favorable interactions between the receptor and the ligand molecules.
 * Scoring - The process of evaluating a particular pose using a number of descriptive features like number of intermolecular interactions including hydrogen bonds and hydrophobic contacts.
 
+* The best docking algorithm should be the one with the best scoring function and
+the best searching algorithm
+[source](https://www.beilstein-journals.org/bjoc/articles/12/267)
+* No single docking methods performs well for all targets and the quality of
+    docking results is highly dependent on the ligand and binding site of
+    interest [source](https://www.beilstein-journals.org/bjoc/articles/12/267)
+
+
+In the early 1990s many approved HIV protease inhibitors were developed to target HIV infections using structure-based molecular docking. [source](https://www.beilstein-journals.org/bjoc/articles/12/267)
+* Saquinavir
+* Amprenavir 
+
+Scoring Functions in MD can be categorized into:
+* **knowledge based** - stastical potentials, frequency of interaction occurance,
+    Boltzmann distribution, dataset dependent  
+* **force-field based** - energy functions via molecular mechanics, coulombic
+    interactions, van der Waals interactions (Lennard-Jones potential)
+      * CHARMM (chemistry at Harvard macromolecular mechanics)
+      * AMBER (assisted model building and energy refinement)
+* **empirical** - binding free energy calculated as the weighted sum of
+    unccorrelated terms,(example - hydrogen bonds, hydrophobicity), Regression
+    analysis find the best weights for each term
+      * HYDE (part of BioSolveIT tools)
+      * ChemScore
+      * SCORE
+* **consensus** - combines scoring functions types into ensemble 
+      * X-CSCORE
+      * MultiScore
+  
+
 The primary factors that lead to a successful docking are: 
 
 
