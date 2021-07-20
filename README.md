@@ -121,11 +121,10 @@ Scoring Functions in MD can be categorized into:
       * ChemScore
       * SCORE
 * **consensus** - combines scoring functions types into ensemble 
+     
       * X-CSCORE
       * MultiScore
-  
 
-The primary factors that lead to a successful docking are: 
 
 
 One of the first appearances of Molecular Docking is said to have been 1982's 
