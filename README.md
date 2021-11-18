@@ -88,6 +88,94 @@ The protein folding problem consists of three closely related puzzles:
 
 [:vhs: YouTube](https://youtu.be/uAIuA1O7iE8)
 
+# JAX in use: AlphaFold2
+
+AlphaFold2 is Google's state of the art protein structure prediction model.
+
+AF2 predicts 3D coordinates of all atoms of a protein, [using the amino acid sequence and aligned sequences homology.](https://github.com/b0mTrady/awesome-structural-bioinformatics)
+
+![image](https://user-images.githubusercontent.com/64801585/126504747-281b12dd-4157-4d73-a7f2-107c26494f1c.png)
+
+
+
+* PreProcessing
+  * Input Sequence 
+  * Multiple Sequence Alignments
+  * Structural Templates  
+* Transformer (EvoFormer)
+* Recycling
+* Structure Module -> 3D coordinates 
+
+![image](https://user-images.githubusercontent.com/64801585/127316142-126458b5-edf4-4bc0-8aeb-d42a24d01750.png)
+
+![Screenshot from 2021-07-28 07-58-02](https://user-images.githubusercontent.com/64801585/127318851-d3c5f87e-75ba-4632-aa13-7b68eee2f2f8.png)
+
+![Screenshot from 2021-07-28 07-58-54](https://user-images.githubusercontent.com/64801585/127318883-b049f5c5-9415-40b6-9de0-9eac288dcb34.png)
+
+
+
+```python
+
+def softmax_cross_entropy(logits, labels):
+  loss = -jnp.sum(labels * jax.nn.log_softmax(logits), axis=-1)
+  return jnp.asarray(loss)
+  
+```
+If you didn't know jax's [nn.logsoftmax](https://github.com/google/jax/blob/890a41f7191fa468e2f638ba4efb9e32ad26adaa/jax/_src/nn/functions.py#L264) AF2's implemenation would not mean much to you. 
+
+So going down the rabbit hole in Jax's nn we have the softmax function:
+
+  (The `LogSoftmax` function, rescales elements to the range <img src="https://render.githubusercontent.com/render/math?math=(-\infty, 0)">)
+
+
+```python
+def log_softmax(x: Array, axis: Optional[Union[int, Tuple[int, ...]]] = -1) -> Array:  
+  shifted = x - lax.stop_gradient(x.max(axis, keepdims=True))
+  return shifted - jnp.log(jnp.sum(jnp.exp(shifted), axis, keepdims=True))
+  ```
+
+The accepted arguments are: 
+* **x** : input array
+* **axis**: the axis or axes along which the `log_softmax` should be computed. Either an integer or a tuple of integers.
+
+and an array is returned.
+
+Inside this function we go further down the lane to:
+* [`lax.stop_gradient`](https://github.com/google/jax/blob/890a41f7191fa468e2f638ba4efb9e32ad26adaa/jax/_src/lax/lax.py#L1661) - is the identity function, that is, it returns argument `x` unchanged. However, ``stop_gradient`` prevents the flow of
+  gradients during forward or reverse-mode automatic differentiation.
+```python
+def stop_gradient(x):
+  def stop(x):
+    if (dtypes.issubdtype(_dtype(x), np.floating) or
+        dtypes.issubdtype(_dtype(x), np.complexfloating)):
+      return ad_util.stop_gradient_p.bind(x)
+    else:
+      return x  # only bind primitive on inexact dtypes, to avoid some staging
+  return tree_map(stop, x)
+```
+This in turn relies upon [`tree_map`](https://github.com/google/jax/blob/890a41f7191fa468e2f638ba4efb9e32ad26adaa/jax/_src/tree_util.py#L144)
+
+```python 
+def tree_map(f: Callable[..., Any], tree: Any, *rest: Any,
+                    is_leaf: Optional[Callable[[Any], bool]] = None) -> Any:
+  
+  leaves, treedef = tree_flatten(tree, is_leaf)
+  all_leaves = [leaves] + [treedef.flatten_up_to(r) for r in rest]
+  return treedef.unflatten(f(*xs) for xs in zip(*all_leaves))
+```
+
+* `jnp.log`
+* `jnp.sum`
+* `jnp.exp`
+
+
+
+[Automatic Differentiation Lecture Slides](https://www.cs.ubc.ca/~fwood/CS340/lectures/AD1.pdf)
+
+[Gans in Jax](https://github.com/lweitkamp/GANs-JAX)
+
+[Jax MD](https://github.com/google/jax-md)
+
 # Docking
 
 
