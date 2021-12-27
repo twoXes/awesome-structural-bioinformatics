@@ -348,3 +348,8 @@ def tree_map(f: Callable[..., Any], tree: Any, *rest: Any,
 [Gans in Jax](https://github.com/lweitkamp/GANs-JAX)
 
 [Jax MD](https://github.com/google/jax-md)
+
+
+# Cheminformatics Tools 
+
+[Open Smiles](http://opensmiles.org/opensmiles.html) - Get those old smiles out of here and imagine the wind in your hair in the drivers seat of open source smiles. 
