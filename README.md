@@ -352,4 +352,4 @@ def tree_map(f: Callable[..., Any], tree: Any, *rest: Any,
 
 # Cheminformatics Tools 
 
-[Open Smiles](http://opensmiles.org/opensmiles.html) - Get those old smiles out of here and imagine the wind in your hair in the drivers seat of open source smiles. 
+[Open Smiles](http://opensmiles.org/opensmiles.html) - Get those old smiles out of here and imagine the wind in your hair in the drivers seat of open source smiles. The only problem - this project hasn't been updated in five years? 
