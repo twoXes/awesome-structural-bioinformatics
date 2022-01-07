@@ -16,8 +16,9 @@ Information should be cheap, fast enjoyable, silly, shared, disproven, contested
 
 Knowledge hodlers, and innovation stifflers are boring and old. This is for the young of mind and young of spirit 🚼 that love to dock & fold. 
 
+# Protein BioInformatics
 
-# Folding
+## Protein Folding
 
  > Structure-function relationships are the fundamental object of knowledge in protein chemistry; they allow us to rationally design drugs, engineer proteins with new functions, and understand why mutations cause disease. [- On The Origin of Proteins](https://www.chemistryworld.com/features/on-the-origin-of-proteins/3004719.article)
 
@@ -31,7 +32,7 @@ The protein folding problem consists of three closely related puzzles:
 * (c) Can we predict the native structure of a protein from its amino acid sequence? [source](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2443096/)
 
 
-## Data Sources
+### Data Sources
 
 ![Prometheus](prometheus.gif)
 
@@ -47,9 +48,9 @@ The protein folding problem consists of three closely related puzzles:
 
 [Fold@Home](https://foldingathome.org/about/)
 
-## Deep Learning Protein Folding
+### Deep Learning Protein Folding
 
-### [AlphaFold 14](https://www.predictioncenter.org/casp14/doc/presentations/2020_12_01_TS_predictor_AlphaFold2.pdf)
+#### [AlphaFold 14](https://www.predictioncenter.org/casp14/doc/presentations/2020_12_01_TS_predictor_AlphaFold2.pdf)
 
   * [:computer: Code](https://github.com/deepmind/alphafold)
   * [:book: Paper 2](https://www.nature.com/articles/s41586-021-03819-2_reference.pdf)
@@ -61,14 +62,14 @@ The protein folding problem consists of three closely related puzzles:
   * [Illustrated Transformer](kjalammar.github.io/illustrated-transformer/)
   * [Transformers from Scratch](http://peterbloem.nl/blog/transformers)
 
-### [AlphaFold 13](https://www.predictioncenter.org/CASP13/doc/presentations/Pred_CASP13-Structure-AlphaFold-Jumper.pdf)
+#### [AlphaFold 13](https://www.predictioncenter.org/CASP13/doc/presentations/Pred_CASP13-Structure-AlphaFold-Jumper.pdf)
 
   * [:floppy_disk: Code](https://github.com/deepmind/deepmind-research/tree/master/alphafold_casp13)
   * [:floppy_disk: Code](https://github.com/dellacortelab/prospr) - Prospr - Open Source Implementation
   * [:book: Prospr Paper](https://www.biorxiv.org/content/10.1101/830273v1) 
   * [AlphaFold @ Casp13: What Just Happened?](https://moalquraishi.wordpress.com/2018/12/09/alphafold-casp13-what-just-happened/) 
 
-### [MiniFold](https://github.com/hypnopump/MiniFold) - Open Source toy example of AlphaFold 13 algorithm 
+#### [MiniFold](https://github.com/hypnopump/MiniFold) - Open Source toy example of AlphaFold 13 algorithm 
 
 > The DeepMind work presented @ CASP was not a technological breakthrough (they did not invent any new type of AI) but an engineering one: they applied well-known AI algorithms to a problem along with lots of data and computing power and found a great solution through model design, feature engineering, model ensembling and so on...
 
@@ -78,7 +79,7 @@ The protein folding problem consists of three closely related puzzles:
 
 > Two different residual neural networks (ResNets) are used to predict angles between adjacent aminoacids (AAs) and distance between every pair of AAs of a protein. For distance prediction a 2D Resnet was used while for angles prediction a 1D Resnet was used.
 
-### PDNet
+#### PDNet
 
 > As deep learning algorithms drive the progress in protein structure prediction, a lot remains to be studied at this merging superhighway of deep learning and protein structure prediction. Recent findings show that inter-residue distance prediction, a more granular version of the well-known contact prediction problem, is a key to predicting accurate models. However, deep learning methods that predict these distances are still in the early stages of their development. To advance these methods and develop other novel methods, a need exists for a small and representative dataset packaged for faster development and testing. In this work, we introduce protein distance net (PDNET), a framework that consists of one such representative dataset along with the scripts for training and testing deep learning methods. The framework also includes all the scripts that were used to curate the dataset, and generate the input features and distance maps.
 
@@ -89,7 +90,7 @@ The protein folding problem consists of three closely related puzzles:
 [:vhs: YouTube](https://youtu.be/uAIuA1O7iE8)
 
 
-# Docking
+## Protein - Ligand Docking
 
 
 "Docking is a method which predicts the prefered orientation of one molecule to a second when bound to each other to form a stable complex. Knoweldge of the prefered orientation in turn may be used to predict the strength of association or binding affinity between two molecules using scoring functions."
@@ -132,7 +133,7 @@ Scoring Functions in MD can be categorized into:
 
 One of the first appearances of Molecular Docking is said to have been 1982's 
 
-## [A Geometric Approach to MacroMolecule Ligand Interactions](https://www.sciencedirect.com/science/article/abs/pii/002228368290153X#:~:text=A%20geometric%20approach%20to%20macromolecule%2Dligand%20interactions%E2%98%86&text=Algorithms%20are%20presented%20that%20examine,sites%20on%20a%20macromolecular%20surface.)
+### [A Geometric Approach to MacroMolecule Ligand Interactions](https://www.sciencedirect.com/science/article/abs/pii/002228368290153X#:~:text=A%20geometric%20approach%20to%20macromolecule%2Dligand%20interactions%E2%98%86&text=Algorithms%20are%20presented%20that%20examine,sites%20on%20a%20macromolecular%20surface.)
 
 They tell us Molecular Docking = "To position two molecules so that they interact favorably with one another..."
 
@@ -169,7 +170,7 @@ inspection with computer graphics.
 > There are various databases available, which offer information on small ligand molecules such as CSD (Cambridge Structural Database), ACD (Available Chemical Directory), MDDR (MDL Drug Data Report) and NCI (National Cancer Institute Database).
 
 
-## Scoring Function 
+### Scoring Function 
 
 ![Goal](goal.gif)
 
@@ -190,7 +191,7 @@ Allowing gaps and insertions at any position and of any length leads to a combin
 
 There is a score function and a fast method for producing the best possible sequence to structure alignments and thus the best models possible. Unfortunately, the problem is still not solved
 
-##  Tools
+## Protein - Ligand Docking Tools
 
 *Tools for exploring how two or more molecular structures fit together*
 
@@ -206,10 +207,7 @@ There is a score function and a fast method for producing the best possible sequ
 
 [Smina](https://github.com/mwojcikowski/smina) used for minimization (local_only) as opposed to of docking, makes Vina much easer to use and 10-20x faster. Docking performance is about the same since partial charge calculation and file i/o isn't such a big part of the performance.
 
-
-# Virtual Screening
-
-Virtual screening = target structure scored with molecules from database to identify potential activies. 
+# Appendix
 
 ## Useful References
 
