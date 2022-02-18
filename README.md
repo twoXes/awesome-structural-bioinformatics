@@ -354,8 +354,8 @@ def tree_map(f: Callable[..., Any], tree: Any, *rest: Any,
 
 [ChimPipe](https://github.com/Chimera-tools/ChimPipe#:~:text=ChimPipe%20is%20a%20computational%20method,junctions%20at%20base%2Dpair%20resolution.) - ChimPipe is a computational method for the detection of novel transcription-induced chimeric transcripts and fusion genes from Illumina Paired-End RNA-seq data. It combines junction spanning and paired-end read information to accurately detect chimeric splice junctions at base-pair resolution.
 
+[DeepPrior](https://github.com/bioinformatics-polito/DEEPrior) - predicts the probability of a gene fusion being a driver of an oncogenic process by directly exploiting the amino acid sequence of the fused protein, and it can prioritize gene fusions from different tumors. Unlike state-of-the-art tools, it also supports easy retraining and re-adaptation of the model.
+
 [DeFuse](https://github.com/amcpherson/defuse) - gene fusion discovery using RNA-Seq data. The software uses clusters of discordant paired end alignments to inform a split read alignment analysis for finding fusion boundaries. | 📔 [paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3098195/)
 
-
-
-[DeepPrior](https://github.com/bioinformatics-polito/DEEPrior) - predicts the probability of a gene fusion being a driver of an oncogenic process by directly exploiting the amino acid sequence of the fused protein, and it can prioritize gene fusions from different tumors. Unlike state-of-the-art tools, it also supports easy retraining and re-adaptation of the model.
+[FusionCatcher](https://github.com/ndaniel/fusioncatcher) - Finder of somatic fusion-genes in RNA-seq data
