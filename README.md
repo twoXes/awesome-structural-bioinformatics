@@ -361,3 +361,5 @@ def tree_map(f: Callable[..., Any], tree: Any, *rest: Any,
 [FusionCatcher](https://github.com/ndaniel/fusioncatcher) - Finder of somatic fusion-genes in RNA-seq data
 
 [Jaffa](https://github.com/Oshlack/JAFFA) - JAFFA is a multi-step pipeline that takes either raw RNA-Seq reads, or pre-assembled transcripts, then searches for gene fusions
+
+[StarFusion](https://github.com/STAR-Fusion/STAR-Fusion/wiki)
