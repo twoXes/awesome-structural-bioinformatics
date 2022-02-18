@@ -359,3 +359,5 @@ def tree_map(f: Callable[..., Any], tree: Any, *rest: Any,
 [DeFuse](https://github.com/amcpherson/defuse) - gene fusion discovery using RNA-Seq data. The software uses clusters of discordant paired end alignments to inform a split read alignment analysis for finding fusion boundaries. | 📔 [paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3098195/)
 
 [FusionCatcher](https://github.com/ndaniel/fusioncatcher) - Finder of somatic fusion-genes in RNA-seq data
+
+[Jaffa](https://github.com/Oshlack/JAFFA) - JAFFA is a multi-step pipeline that takes either raw RNA-Seq reads, or pre-assembled transcripts, then searches for gene fusions
