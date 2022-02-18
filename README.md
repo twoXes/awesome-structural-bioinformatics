@@ -347,7 +347,9 @@ def tree_map(f: Callable[..., Any], tree: Any, *rest: Any,
 
 [Jax MD](https://github.com/google/jax-md)
 
-
-# Cheminformatics Tools 
-
 [Open Smiles](http://opensmiles.org/opensmiles.html) - Get those old smiles out of here and imagine the wind in your hair in the drivers seat of open source smiles. The only problem - this project hasn't been updated in five years? 
+
+
+# Fusion Proteins 
+
+[DeepPrior](https://github.com/bioinformatics-polito/DEEPrior) - predicts the probability of a gene fusion being a driver of an oncogenic process by directly exploiting the amino acid sequence of the fused protein, and it can prioritize gene fusions from different tumors. Unlike state-of-the-art tools, it also supports easy retraining and re-adaptation of the model.
