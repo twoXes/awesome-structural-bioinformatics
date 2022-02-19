@@ -364,4 +364,4 @@ def tree_map(f: Callable[..., Any], tree: Any, *rest: Any,
 
 [Jaffa](https://github.com/Oshlack/JAFFA) - JAFFA is a multi-step pipeline that takes either raw RNA-Seq reads, or pre-assembled transcripts, then searches for gene fusions
 
-[StarFusion](https://github.com/STAR-Fusion/STAR-Fusion/wiki)
+[StarFusion](https://github.com/STAR-Fusion/STAR-Fusion/wiki) | 📖 [paper](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-019-1842-9)
