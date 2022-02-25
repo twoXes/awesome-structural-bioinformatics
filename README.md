@@ -16,9 +16,9 @@ Information should be cheap, fast enjoyable, silly, shared, disproven, contested
 
 Knowledge hodlers, and innovation stifflers are boring and old. This is for the young of mind and young of spirit 🚼 that love to dock & fold. 
 
-[Proteins[(https://github.com/Ramb0a/awesome-structural-bioinformatics#protein-bioinformatics)
+[Proteins](https://github.com/Ramb0a/awesome-structural-bioinformatics#protein-bioinformatics)
 
-[Genetics](
+[Genomics](https://github.com/Ramb0a/awesome-structural-bioinformatics#genomics)
 
 # Protein BioInformatics
 
