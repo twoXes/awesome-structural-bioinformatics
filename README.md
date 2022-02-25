@@ -294,7 +294,7 @@ Genomics begins with the discoveries of [Gregor Mendel](https://www.britannica.c
 
 [Online Needleman-Wunsch Example](https://berthub.eu/nwunsch/) || [Example II](http://experiments.mostafa.io/public/needleman-wunsch/index.html) || [Great NW Colab](https://colab.research.google.com/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/08_phylogenetic_trees/needleman_wunsch_alignment.ipynb)
 
-# Learning
+## Genomics Learning Online
 
 💭  [Rosalind](https://rosalind.info/problems/locations/)
 
