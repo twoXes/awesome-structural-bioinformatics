@@ -20,7 +20,7 @@ Knowledge hodlers, and innovation stifflers are boring and old. This is for the 
 
 [Genomics](https://github.com/Ramb0a/awesome-structural-bioinformatics#genomics)
 
-# Protein BioInformatics
+# Proteomics
 
 ## Protein Folding
 
@@ -34,23 +34,6 @@ The protein folding problem consists of three closely related puzzles:
 * (a) What is the folding code? 
 * (b) What is the folding mechanism?
 * (c) Can we predict the native structure of a protein from its amino acid sequence? [source](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2443096/)
-
-
-### Data Sources
-
-![Prometheus](prometheus.gif)
-
-[CATH/Gene3D](https://www.cathdb.info/) - 151 Million Protein Domains Classified into 5,481 Superfamilies
-
-[NCBI Conserved Domains Database](https://www.ncbi.nlm.nih.gov/Structure/cdd/wrpsb.cgi) - resource for the annotation of functional units in proteins
-
-[Protein Data Bank](https://www.rcsb.org/)
-
-[Scop 2](https://scop.mrc-lmb.cam.ac.uk/) - Structural Classification of Proteins
-
-[UniProt](https://www.uniprot.org/) -  comprehensive, high-quality and freely accessible resource of protein sequence and functional information.
-
-[Fold@Home](https://foldingathome.org/about/)
 
 ### Deep Learning Protein Folding
 
@@ -133,11 +116,29 @@ Scoring Functions in MD can be categorized into:
       * X-CSCORE
       * MultiScore
 
+## Protein - Ligand Docking Tools
+
+*Tools for exploring how two or more molecular structures fit together*
+
+[AutoDock](http://autodock.scripps.edu/) - suite of automated docking tools designed to predict how small molecules bind to a receptor of known 3D structure
+
+[AutoDock Vina](http://vina.scripps.edu/) - significantly improves the average accuracy of the binding mode predictions compared to AutoDock
+
+* [:book: Paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3041641/)
+
+[Gnina](https://github.com/gnina/gnina) - deep learning framework for molecular docking -inside deepchem (/dock/pose_generation.py)
+
+[GOMoDo](https://gomodo.grs.kfa-juelich.de/php/about.php) - GPCR online modeling and docking server
+
+[Smina](https://github.com/mwojcikowski/smina) used for minimization (local_only) as opposed to of docking, makes Vina much easer to use and 10-20x faster. Docking performance is about the same since partial charge calculation and file i/o isn't such a big part of the performance.
 
 
-One of the first appearances of Molecular Docking is said to have been 1982's 
+
+ 
 
 ### [A Geometric Approach to MacroMolecule Ligand Interactions](https://www.sciencedirect.com/science/article/abs/pii/002228368290153X#:~:text=A%20geometric%20approach%20to%20macromolecule%2Dligand%20interactions%E2%98%86&text=Algorithms%20are%20presented%20that%20examine,sites%20on%20a%20macromolecular%20surface.)
+
+One of the first appearances of Molecular Docking is said to have been this 1982 paper.
 
 They tell us Molecular Docking = "To position two molecules so that they interact favorably with one another..."
 
@@ -195,21 +196,21 @@ Allowing gaps and insertions at any position and of any length leads to a combin
 
 There is a score function and a fast method for producing the best possible sequence to structure alignments and thus the best models possible. Unfortunately, the problem is still not solved
 
-## Protein - Ligand Docking Tools
+## Protein Data Sources
 
-*Tools for exploring how two or more molecular structures fit together*
+![Prometheus](prometheus.gif)
 
-[AutoDock](http://autodock.scripps.edu/) - suite of automated docking tools designed to predict how small molecules bind to a receptor of known 3D structure
+[CATH/Gene3D](https://www.cathdb.info/) - 151 Million Protein Domains Classified into 5,481 Superfamilies
 
-[AutoDock Vina](http://vina.scripps.edu/) - significantly improves the average accuracy of the binding mode predictions compared to AutoDock
+[NCBI Conserved Domains Database](https://www.ncbi.nlm.nih.gov/Structure/cdd/wrpsb.cgi) - resource for the annotation of functional units in proteins
 
-* [:book: Paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3041641/)
+[Protein Data Bank](https://www.rcsb.org/)
 
-[Gnina](https://github.com/gnina/gnina) - deep learning framework for molecular docking -inside deepchem (/dock/pose_generation.py)
+[Scop 2](https://scop.mrc-lmb.cam.ac.uk/) - Structural Classification of Proteins
 
-[GOMoDo](https://gomodo.grs.kfa-juelich.de/php/about.php) - GPCR online modeling and docking server
+[UniProt](https://www.uniprot.org/) -  comprehensive, high-quality and freely accessible resource of protein sequence and functional information.
 
-[Smina](https://github.com/mwojcikowski/smina) used for minimization (local_only) as opposed to of docking, makes Vina much easer to use and 10-20x faster. Docking performance is about the same since partial charge calculation and file i/o isn't such a big part of the performance.
+[Fold@Home](https://foldingathome.org/about/)
 
 
 ## Fusion Proteins 
