@@ -16,6 +16,10 @@ Information should be cheap, fast enjoyable, silly, shared, disproven, contested
 
 Knowledge hodlers, and innovation stifflers are boring and old. This is for the young of mind and young of spirit 🚼 that love to dock & fold. 
 
+[Proteins[(https://github.com/Ramb0a/awesome-structural-bioinformatics#protein-bioinformatics)
+
+[Genetics](
+
 # Protein BioInformatics
 
 ## Protein Folding
@@ -208,7 +212,7 @@ There is a score function and a fast method for producing the best possible sequ
 [Smina](https://github.com/mwojcikowski/smina) used for minimization (local_only) as opposed to of docking, makes Vina much easer to use and 10-20x faster. Docking performance is about the same since partial charge calculation and file i/o isn't such a big part of the performance.
 
 
-# Fusion Proteins 
+## Fusion Proteins 
 
 [ChimPipe](https://github.com/Chimera-tools/ChimPipe#:~:text=ChimPipe%20is%20a%20computational%20method,junctions%20at%20base%2Dpair%20resolution.) - ChimPipe is a computational method for the detection of novel transcription-induced chimeric transcripts and fusion genes from Illumina Paired-End RNA-seq data. It combines junction spanning and paired-end read information to accurately detect chimeric splice junctions at base-pair resolution.
 
@@ -224,9 +228,93 @@ There is a score function and a fast method for producing the best possible sequ
 
 [StarFusion](https://github.com/STAR-Fusion/STAR-Fusion/wiki) | 📖 [paper](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-019-1842-9)
 
+# Genomics 
+
+Human genome = 20K+ genes 👖 each responsible for the instructions of building a single protein; encoded within 6 feet of DNA.
+
+DNA 🧬 is the 'instruction manual of life' (thankfully not written by Ikea 🪑 )
+
+Life is encoded in digital form G/C || T/A nucleotide base pairs. 
+
+DNA is encoded ('transcribed) into mRNA and then decoded ('translated) into Proteins. Along the way alot of good and bad stuff happens in the [latent space](https://stats.stackexchange.com/questions/442352/what-is-a-latent-space).
+
+To make the DNA -> RNA transcribing happen - RNA takes a DNA strands - the template strand that runs from 3' to 5' (prime) - and it is uses to form single stranded RNA with all T's replaced by U's. (Thymine replaced by Uracil). The RNA now runs 5' to 3' prime and is identical to the non-template strand DNA sequence (the coding strand), except again Thymine is replaced by Uracil. 
+
+```python
+
+import Bio
+from Bio.Seq import Seq
+
+dna = Seq("ACGTTTATCGATCGA")
+mRNA = dna.transcribe()
+protein = mRNA.translate()
+
+print(dna)
+print(mRNA)
+print(protein)
+
+>>> ACGTTTATCGATCGA
+>>> ACGUUUAUCGAUCGA
+>>> TFIDR
+
+```
+
+From the template strand -> RNA strand transcription, translation happens when RNA is turned into proteins via the reading of codons - three letter RNA sequences that encode into specific amino acids. The tranlation looks like this codon table: 
+
+
+![Codon Table](https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Aminoacids_table.svg/1920px-Aminoacids_table.svg.png)
+
+Genes come in **Alleles**, the variations of the gene (example gene = hair color, allele = red hair 👩‍🦰 ||  blonde hair 👱‍♂️) 
+
+> Geneomics is the study of all genes in an organism to understand their molecular organization, function, interaction and evolutionary history.
+
+Genomics begins with the discoveries of [Gregor Mendel](https://www.britannica.com/biography/Gregor-Mendel) 
+
+![Griffith Experiment](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Griffith_experiment.svg/1432px-Griffith_experiment.svg.png)
+
+
+## Genomics Software
+
+[Deep Variant](https://github.com/google/deepvariant) - analysis pipeline that uses a deep neural network to call genetic variants from next-generation DNA sequencing data
+
+[NVIDIA Clara Parabricks Pipelines](https://docs.nvidia.com/clara/parabricks/v3.5/text/software_overview.html) - perform secondary analysis of next generation sequencing (NGS) DNA and RNA data, blazing fast speeds and low cost. Can analyze whole human genomes in about 45 minutes. Includes Deep Variant. 
+  * [AWS Clara Parabrick Pipeline Setup](https://aws.amazon.com/marketplace/pp/prodview-apbngojlskcyq) ~ $4 per hour. 
+ 
+ [BioWasm](https://github.com/biowasm/biowasm) - WebAssembly modules for genomics
+ 
+ [FastQ Bio](https://github.com/robertaboukhalil/fastq.bio) - An interactive web tool for quality control of DNA sequencing data
+ 
+ [Minimap2](https://github.com/lh3/minimap2)  - sequence alignment program that aligns DNA or mRNA sequences against a large reference database. For >100bp Illumina short reads, minimap2 is three times as fast as BWA-MEM and Bowtie2, and as accurate on simulated data. | [paper](https://academic.oup.com/bioinformatics/article/34/18/3094/4994778)
+ 
+ [gBWT](https://github.com/jltsiren/gbwt) -  graph extension (gPBWT) of the positional Burrows-Wheeler transform (PBWT)
+ * [gBWT in Rust](https://github.com/jltsiren/gbwt-rs) 
+
+[VG](https://github.com/vgteam/vg) - tools for working with genome variation graphs
+
+[Cello](https://github.com/CIDARLAB/Cello-v2) - Genetic Circuit Design 
+
+## Genomics Resources
+
+🍼 [Genome in a Bottle](https://www.nist.gov/programs-projects/genome-bottle) - develop the technical infrastructure (reference standards, reference methods, and reference data) to enable translation of whole human genome sequencing to clinical practice and innovations in technologies.
+
+[Online Needleman-Wunsch Example](https://berthub.eu/nwunsch/) || [Example II](http://experiments.mostafa.io/public/needleman-wunsch/index.html) || [Great NW Colab](https://colab.research.google.com/github/zaneveld/full_spectrum_bioinformatics/blob/master/content/08_phylogenetic_trees/needleman_wunsch_alignment.ipynb)
+
+# Learning
+
+💭  [Rosalind](https://rosalind.info/problems/locations/)
+
+💭 [Great Introduction to BioInformatics Course](https://gtpb.github.io/ELB19F/) - ELB19F
+
+💭 [Learn BioInformatics in the Browser](https://sandbox.bio/) - Sandbox Bio
+
+☁️ [Biological Modeling](https://biologicalmodeling.org/) - Free Online Course
+
+☁️ [BioInformatic Algorithms Lecture Videos](https://www.bioinformaticsalgorithms.org/lecture-videos)
+
+
 # Appendix
 
-## Useful References
+## Protein References
 
 (2020) [High-Throughput Docking Using Quantum Mechanical Scoring](https://www.frontiersin.org/articles/10.3389/fchem.2020.00246/full)
 
@@ -257,6 +345,26 @@ There is a score function and a fast method for producing the best possible sequ
 (2005) [GPCR Folding and Maturation](https://link.springer.com/chapter/10.1007/978-1-59259-919-6_3) from [The G Protein-Coupled Receptors Handbook](https://link.springer.com/book/10.1007/978-1-59259-919-6)
 
 (1982) [A Geometric Approach to MacroMolecule Ligand Interactions](https://www.sciencedirect.com/science/article/abs/pii/002228368290153X#:~:text=A%20geometric%20approach%20to%20macromolecule%2Dligand%20interactions%E2%98%86&text=Algorithms%20are%20presented%20that%20examine,sites%20on%20a%20macromolecular%20surface.)
+
+## Genomics References 
+
+(2021) [Re-identification of individuals in genomic datasets using public face images](https://www.science.org/doi/epdf/10.1126/sciadv.abg3296)
+
+(2021) [Accurate, scalable cohort variant calls using DeepVariant and GLnexus](https://academic.oup.com/bioinformatics/article/36/24/5582/6064144)
+
+(2020) [Secure large-scale genome-wide association studies using homomorphic encryption](https://www.pnas.org/content/117/21/11608.long)
+
+(2020) [Optimized homomorphic encryption solution for secure genome-wide association studies](https://bmcmedgenomics.biomedcentral.com/articles/10.1186/s12920-020-0719-9)
+
+(2019) [Are drug targets with genetic support twice as likely to be approved? Revised estimates of the impact of genetic support for drug mechanisms on the probability of drug approval](https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1008489)
+
+(2018) [A universal SNP and small-indel variant caller using deep neural networks](https://github.com/Ramb0a/awesome-genomics/blob/main/papers/universal_snp_small_indel_variant_caller_using_dnn.pdf)
+
+(2018) [Secure genome-wide association analysis using multiparty computation](https://github.com/Ramb0a/awesome-genomics/blob/main/papers/secure_genome_wide_association_analysis_using_multiparty_computation.pdf)
+
+(2018) [Minimap2: pairwise alignment for nucleotide sequences](https://academic.oup.com/bioinformatics/article/34/18/3094/4994778)
+
+(2016) [The sequence of sequencers: the history of sequencing dna](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4727787/)
 
 
 ## Other Free Books You Should Read Instead of This Repo
