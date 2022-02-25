@@ -80,6 +80,21 @@ The protein folding problem consists of three closely related puzzles:
 ## Protein - Ligand Docking
 
 
+*Tools for exploring how two or more molecular structures fit together*
+
+[AutoDock](http://autodock.scripps.edu/) - suite of automated docking tools designed to predict how small molecules bind to a receptor of known 3D structure
+
+[AutoDock Vina](http://vina.scripps.edu/) - significantly improves the average accuracy of the binding mode predictions compared to AutoDock
+
+* [:book: Paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3041641/)
+
+[Gnina](https://github.com/gnina/gnina) - deep learning framework for molecular docking -inside deepchem (/dock/pose_generation.py)
+
+[GOMoDo](https://gomodo.grs.kfa-juelich.de/php/about.php) - GPCR online modeling and docking server
+
+[Smina](https://github.com/mwojcikowski/smina) used for minimization (local_only) as opposed to of docking, makes Vina much easer to use and 10-20x faster. Docking performance is about the same since partial charge calculation and file i/o isn't such a big part of the performance.
+
+
 "Docking is a method which predicts the prefered orientation of one molecule to a second when bound to each other to form a stable complex. Knoweldge of the prefered orientation in turn may be used to predict the strength of association or binding affinity between two molecules using scoring functions."
 
 * Pose - A conformation of the receptor and ligand molecules showing some intermolecular interactions (which may include hydrogen bonds as well as hydrophobic contacts
@@ -96,45 +111,7 @@ the best searching algorithm
 
 In the early 1990s many approved HIV protease inhibitors were developed to target HIV infections using structure-based molecular docking. [source](https://www.beilstein-journals.org/bjoc/articles/12/267)
 * Saquinavir
-* Amprenavir 
-
-Scoring Functions in MD can be categorized into:
-* **knowledge based** - stastical potentials, frequency of interaction occurance,
-    Boltzmann distribution, dataset dependent  
-* **force-field based** - energy functions via molecular mechanics, coulombic
-    interactions, van der Waals interactions (Lennard-Jones potential)
-      * CHARMM (chemistry at Harvard macromolecular mechanics)
-      * AMBER (assisted model building and energy refinement)
-* **empirical** - binding free energy calculated as the weighted sum of
-    unccorrelated terms,(example - hydrogen bonds, hydrophobicity), Regression
-    analysis find the best weights for each term
-      * HYDE (part of BioSolveIT tools)
-      * ChemScore
-      * SCORE
-* **consensus** - combines scoring functions types into ensemble 
-     
-      * X-CSCORE
-      * MultiScore
-
-## Protein - Ligand Docking Tools
-
-*Tools for exploring how two or more molecular structures fit together*
-
-[AutoDock](http://autodock.scripps.edu/) - suite of automated docking tools designed to predict how small molecules bind to a receptor of known 3D structure
-
-[AutoDock Vina](http://vina.scripps.edu/) - significantly improves the average accuracy of the binding mode predictions compared to AutoDock
-
-* [:book: Paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3041641/)
-
-[Gnina](https://github.com/gnina/gnina) - deep learning framework for molecular docking -inside deepchem (/dock/pose_generation.py)
-
-[GOMoDo](https://gomodo.grs.kfa-juelich.de/php/about.php) - GPCR online modeling and docking server
-
-[Smina](https://github.com/mwojcikowski/smina) used for minimization (local_only) as opposed to of docking, makes Vina much easer to use and 10-20x faster. Docking performance is about the same since partial charge calculation and file i/o isn't such a big part of the performance.
-
-
-
- 
+* Amprenavir
 
 ### [A Geometric Approach to MacroMolecule Ligand Interactions](https://www.sciencedirect.com/science/article/abs/pii/002228368290153X#:~:text=A%20geometric%20approach%20to%20macromolecule%2Dligand%20interactions%E2%98%86&text=Algorithms%20are%20presented%20that%20examine,sites%20on%20a%20macromolecular%20surface.)
 
@@ -192,7 +169,26 @@ inspection with computer graphics.
 
 Allowing gaps and insertions at any position and of any length leads to a combinatorial explosion of possibilities. The calculation can be made tractable by restricting the search space and forbidding gaps except in recognised loops in template structures.
 
-There is a score function and a fast method for producing the best possible sequence to structure alignments and thus the best models possible. Unfortunately, the problem is still not solved
+There is a score function and a fast method for producing the best possible sequence to structure alignments and thus the best models possible. Unfortunately, the problem is still not solved,
+
+
+Scoring Functions in MD can be categorized into:
+* **knowledge based** - stastical potentials, frequency of interaction occurance,
+    Boltzmann distribution, dataset dependent  
+* **force-field based** - energy functions via molecular mechanics, coulombic
+    interactions, van der Waals interactions (Lennard-Jones potential)
+      * CHARMM (chemistry at Harvard macromolecular mechanics)
+      * AMBER (assisted model building and energy refinement)
+* **empirical** - binding free energy calculated as the weighted sum of
+    unccorrelated terms,(example - hydrogen bonds, hydrophobicity), Regression
+    analysis find the best weights for each term
+      * HYDE (part of BioSolveIT tools)
+      * ChemScore
+      * SCORE
+* **consensus** - combines scoring functions types into ensemble 
+     
+      * X-CSCORE
+      * MultiScore
 
 ## Protein Data Sources
 
