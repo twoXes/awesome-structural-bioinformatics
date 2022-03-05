@@ -378,7 +378,16 @@ Genomics begins with the discoveries of [Gregor Mendel](https://www.britannica.c
 
 [Pattern Recognition and Machine Learning](https://www.microsoft.com/en-us/research/uploads/prod/2006/01/Bishop-Pattern-Recognition-and-Machine-Learning-2006.pdf) 🤖 Another classic banger
 
-# Brief Explanation of AlphaFold Jax Architecture
+# Important Technology in the Future of Structural BioInformatics 
+
+* [Annoy](https://github.com/spotify/annoy) - the standard in production nearest neighbor 
+* [gRPC](https://grpc.io/) - connect your devices binary like 
+* [Jax](https://github.com/google/jax) - the future? of domain specific ML compiling?
+* [Kubernetes](https://kubernetes.io/) - make all your informatics container orchestration declarative 
+* [ONNX](https://onnx.ai/) - make all your models interoperable 
+* [ONNX Runtime](https://onnxruntime.ai/) - speed up your informatic inference 
+
+## Brief Explanation of AlphaFold Jax Architecture
 
 AlphaFold2 is Google's state of the art protein structure prediction model.
 
