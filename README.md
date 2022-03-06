@@ -309,23 +309,89 @@ Genomics begins with the discoveries of [Gregor Mendel](https://www.britannica.c
 
 # Appendix
 
-## Protein References
+## Protein/Small Molecule References
+
+(2021) [Highly accurate protein structure prediction with AlphaFold](https://www.nature.com/articles/s41586-021-03819-2)
+
+(2021) [Deep molecular dreaming: inverse machine learning for de-novo molecular design and interpretability with surjective representations](https://iopscience.iop.org/article/10.1088/2632-2153/ac09d6)
+
+(2021) [JANUS: Parallel Tempered Genetic Algorithm Guided by Deep Neural Networks for Inverse Molecular Design](https://arxiv.org/pdf/2106.04011.pdf) --> :computer: [code](https://github.com/aspuru-guzik-group/JANUS)
+
+(2021) [Transformer neural network for protein-specific de novo drug generation as a machine translation problem](https://www.nature.com/articles/s41598-020-79682-4)
+
+(2021) [Using Gans With Adaptive Training Data to search for new molecules](https://jcheminf.biomedcentral.com/articles/10.1186/s13321-021-00494-3)
+
+(2021) [Quantum Generative Models for Small Molecule Drug Discovery](https://arxiv.org/pdf/2101.03438.pdf) --> :computer: [QuantumGan code](https://github.com/jundeli/quantum-gan)
+
+(2021) [Machine learning designs non-hemolytic antimicrobial peptides](https://pubs.rsc.org/en/content/articlelanding/2021/sc/d1sc01713f)
+
+(2021) [Few-Shot Graph Learning for Molecular Property Prediction](https://gitlab.com/7tm/smel/-/blob/master/papers/few_shot_graph_learning.pdf) --> :computer: [code](https://github.com/zhichunguo/Meta-MGNN)
+
+(2021) [Assigning Confidence To Molecular Property Prediction](https://gitlab.com/7tm/smel/-/blob/master/papers/assigning_confidence_molecular_property_prediction.pdf)
+
+(2020) [Machine learning and AI-based approaches for bioactive ligand discovery and GPCR-ligand recognition](https://www.sciencedirect.com/science/article/pii/S1046202319302762)
+
+(2020) [A Turing Test For Molecular Generation](https://gitlab.com/7tm/smel/-/blob/master/papers/turing_test_for_molecular_generators.pdf)
+
+(2020) [Mol-CycleGAN: a generative model for molecular optimization](https://jcheminf.biomedcentral.com/articles/10.1186/s13321-019-0404-1) --> :computer: [code](https://github.com/ardigen/mol-cycle-gan) 
+
+(2020) [Protein Contact Map Denoising Using Generative Adversarial Networks](https://www.biorxiv.org/content/biorxiv/early/2020/06/27/2020.06.26.174300.full.pdf) --> :computer: [ContactGAN code](https://github.com/kiharalab/ContactGAN)
+
+(2020) [Hierarchical Generation of Molecular Graphs using Structural Motifs](https://arxiv.org/pdf/2002.03230.pdf) --> :computer: [code](https://github.com/wengong-jin/hgraph2graph/)
+
+(2020) [Relevant Applications of Generative Adversarial Networks in Drug Design and Discovery: Molecular De Novo Design, Dimensionality Reduction, and De Novo Peptide and Protein Design](https://arxiv.org/pdf/2101.03438.pdf)
+
+(2020) [Deep Learning for Prediction and Optimization of Fast-Flow Peptide Synthesis](https://pubs.acs.org/doi/pdf/10.1021/acscentsci.0c00979)
+
+(2020) [Curiosity in exploring chemical space: Intrinsic rewards for deep molecular reinforcement learning](https://arxiv.org/pdf/2012.11293.pdf)
 
 (2020) [High-Throughput Docking Using Quantum Mechanical Scoring](https://www.frontiersin.org/articles/10.3389/fchem.2020.00246/full)
 
 (2020) [Deep Learning Methods in Protein Structure Prediction](https://www.sciencedirect.com/science/article/pii/S2001037019304441)
 
+(2020) [GraSeq: Graph and Sequence Fusion Learning for Molecular Property Prediction](https://gitlab.com/7tm/smel/-/blob/master/papers/graseq.pdf) --> :computer: [code](https://github.com/zhichunguo/GraSeq)
+
+(2020) [Revealing cytotoxic substructures in molecules using deep learning](https://link.springer.com/article/10.1007/s10822-020-00310-4)
+
+(2020) [ChemBERTa: Large-Scale Self-Supervised Pretraining for Molecular Property Prediction](https://arxiv.org/pdf/2010.09885.pdf)
+
 (2019)[From Machine Learning to Deep Learning: Advances in scoring functions for protein-ligand docking](https://onlinelibrary.wiley.com/doi/abs/10.1002/wcms.1429)
 
 (2019) [The Unreasonable Effectiveness of Convolutional Neural Networks in Population Genetic Inference, Molecular Biology and Evolution](https://doi.org/10.1093/molbev/msy224)
+
+(2019) [Deep Learning Enables Rapid Identification of Potent DDR1 Kinase Inhibitors](https://gitlab.com/7tm/smel/-/blob/master/papers/gentrl_paper.pdf) --> :computer: [GENTRL code](https://github.com/insilicomedicine/GENTRL)
+
+(2019) [Junction Tree Variational Autoencoder for Molecular Graph Generation](https://arxiv.org/pdf/1802.04364.pdf) --> :computer: [Code](https://github.com/wengong-jin/icml18-jtnn) 
+
+(2019) [SMILES Transformer: Pre-trained Molecular Fingerprint for Low Data Drug Discovery](https://arxiv.org/pdf/1911.04738.pdf) --> [code](https://github.com/DSPsleeporg/smiles-transformer) --> :computer: [code](https://github.com/DSPsleeporg/smiles-transformer)
+
+(2019) [Molecular Property Prediction: A Multilevel Quantum Interactions Modeling Perspective](https://gitlab.com/7tm/smel/-/blob/master/papers/molecular_property_prediction.pdf) --> :computer: [code](https://github.com/awslabs/dgl-lifesci/blob/master/python/dgllife/model/model_zoo/mgcn_predictor.py) --> :computer: [more code](https://github.com/tencent-alchemy/Alchemy)
+
+(2019) [SMILES-BERT: Large Scale Unsupervised Pre-Training for Molecular Property Prediction](https://gitlab.com/7tm/smel/-/blob/master/papers/smiles_bert_2019.pdf)
+
+(2019) [eToxPred: a machine learning-based approach to estimate the toxicity of drug candidates](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6325674/) --> :computer: [eToxPred code](https://github.com/pulimeng/etoxpred)
+
+(2018) [Seq3Seq Fingerprint: Towards End-to-end Semi-supervised Deep Drug Discovery](https://gitlab.com/7tm/smel/-/blob/master/papers/seq3seq.pdf) --> :computer: [code](https://github.com/xysteve00/seq3seq-fingerprint-regression)
+
+(2018) [Chemi-Net: A molecular graph convolutional network for accurate drug property prediction](https://gitlab.com/7tm/smel/-/blob/master/papers/cheminet.pdf)
+
+(2018) [Machine Learning of Toxicological Big Data Enables Read-Across Structure Activity Relationships (RASAR) Outperforming Animal Test Reproducibility](https://academic.oup.com/toxsci/article/165/1/198/5043469)
+
 
 (2018) [DeepFam: deep learning based alignment-free method for protein family modeling and prediction](https://doi.org/10.1093/bioinformatics/bty275)
 
 (2018) [Derivative-free neural network for optimizing the scoring functions associated with dynamic programming of pairwise-profile alignment](https://doi.org/10.1186/s13015-018-0123-6)
 
+(2018) [(MOSES): A Benchmarking Platform for Molecular Generation Models](https://arxiv.org/abs/1811.12823) --> :computer: [code](https://github.com/molecularsets/moses)
+
+(2018) [DeepSMILES: An adaptation of SMILES for use in machine-learning of chemical structures](https://chemrxiv.org/engage/api-gateway/chemrxiv/assets/orp/resource/item/60c73ed6567dfe7e5fec388d/original/deep-smiles-an-adaptation-of-smiles-for-use-in-machine-learning-of-chemical-structures.pdf) --> :computer: [code](https://github.com/baoilleach/deepsmiles)
+
+
 (2017) [Protein-Ligand Scoring with CNN](https://pubs.acs.org/doi/10.1021/acs.jcim.6b00740)
 
 (2017) [Quantum-chemical insights from deep tensor neural networks](https://www.nature.com/articles/ncomms13890)
+
+(2016) [Incorporating QM and solvation into docking for applications to GPCR targets](https://gitlab.com/7tm/smel/-/blob/master/papers/qm_solvation_docking_gpcr.pdf)
 
 (2014) [MRFalign: Protein Homology Detection through Alignment of Markov Random Fields](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003500)
 
@@ -333,11 +399,15 @@ Genomics begins with the discoveries of [Gregor Mendel](https://www.britannica.c
 
 (2011) [The structural basis for agonist and partial agonist action on a β(1)-adrenergic receptor](https://pubmed.ncbi.nlm.nih.gov/21228877/)
 
+(2011) [Molecular Dynamics Simulations of Protein Dynamics and their relevance to drug discovery](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2981647/)
+
 (2010) [AutoDock Vina: improving the speed and accuracy of docking with a new scoring function, efficient optimization and multithreading](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3041641/)
 
 (2009) [Amphipol-Assisted in Vitro Folding of G Protein-Coupled Receptors](https://pubs.acs.org/doi/10.1021/bi801729z)
 
 (2005) [GPCR Folding and Maturation](https://link.springer.com/chapter/10.1007/978-1-59259-919-6_3) from [The G Protein-Coupled Receptors Handbook](https://link.springer.com/book/10.1007/978-1-59259-919-6)
+
+(1996) [Double-mutant cycles: a powerful tool for analyzing protein structure and function](https://www.sciencedirect.com/science/article/pii/S1359027896000569)
 
 (1982) [A Geometric Approach to MacroMolecule Ligand Interactions](https://www.sciencedirect.com/science/article/abs/pii/002228368290153X#:~:text=A%20geometric%20approach%20to%20macromolecule%2Dligand%20interactions%E2%98%86&text=Algorithms%20are%20presented%20that%20examine,sites%20on%20a%20macromolecular%20surface.)
 
