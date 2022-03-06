@@ -423,6 +423,7 @@ causal inferences in epidemiology](http://jenni.uchicago.edu/ERC_2010/Lawlor_Har
 * [Kubernetes](https://kubernetes.io/) - make all your informatics container orchestration declarative 
 * [ONNX](https://onnx.ai/) - make all your models interoperable 
 * [ONNX Runtime](https://onnxruntime.ai/) - speed up your informatic inference 
+* [Polars](https://github.com/pola-rs/polars) - everyone learns the hard way that Pandas doesn't cut it in the real world. Its like [Arrow](https://github.com/apache/arrow) only Rusty. 
 
 ## Brief Explanation of AlphaFold Jax Architecture
 
