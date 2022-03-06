@@ -347,11 +347,31 @@ Genomics begins with the discoveries of [Gregor Mendel](https://www.britannica.c
 
 (2021) [Accurate, scalable cohort variant calls using DeepVariant and GLnexus](https://academic.oup.com/bioinformatics/article/36/24/5582/6064144)
 
+(2021) [Ten simple rules for conducting a mendelian randomization study](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1009238#sec002)
+
+(2021) [Genetic determinants of blood-cell traits influence susceptibility to childhood acute lymphoblastic leukemia](https://github.com/sevenTMers/awesome-mendelian-randomisation/blob/main/resources/genetic_deterinmaants_of_blood_cell_traits.pdf)
+
+(2021) [The use of negative control outcomes in Mendelian randomization to detect potential population stratification](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8407870/pdf/dyaa288.pdf)
+
 (2020) [Secure large-scale genome-wide association studies using homomorphic encryption](https://www.pnas.org/content/117/21/11608.long)
 
 (2020) [Optimized homomorphic encryption solution for secure genome-wide association studies](https://bmcmedgenomics.biomedcentral.com/articles/10.1186/s12920-020-0719-9)
 
+(2020) [Genetic drug target validation using Mendelian randomisation](https://www.nature.com/articles/s41467-020-16969-0)
+
+(2020) [Guidelines for performing Mendelian randomization investigations](https://wellcomeopenresearch.org/articles/4-186)
+
+(2020) [Mendel’s laws, Mendelian randomization and causal inference in observational data: substantive and nomenclatural issues](https://link.springer.com/article/10.1007/s10654-020-00622-7)
+
+(2020) [The use of Mendelian randomisation to identify causal cancer risk factors: promise and limitations](https://onlinelibrary.wiley.com/doi/full/10.1002/path.5421)
+
+(2020) [A robust and efficient method for Mendelian randomization with hundreds of genetic variants](https://www.nature.com/articles/s41467-019-14156-4)
+
 (2019) [Are drug targets with genetic support twice as likely to be approved? Revised estimates of the impact of genetic support for drug mechanisms on the probability of drug approval](https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1008489)
+
+(2019) [Learning Causal Biological Networks With the Principle of Mendelian Randomization](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6536645/)
+
+(2019) [Conducting a Reproducible Mendelian Randomization Analysis using the R analytic statistical environment](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6424604/)
 
 (2018) [A universal SNP and small-indel variant caller using deep neural networks](https://github.com/Ramb0a/awesome-genomics/blob/main/papers/universal_snp_small_indel_variant_caller_using_dnn.pdf)
 
@@ -359,7 +379,24 @@ Genomics begins with the discoveries of [Gregor Mendel](https://www.britannica.c
 
 (2018) [Minimap2: pairwise alignment for nucleotide sequences](https://academic.oup.com/bioinformatics/article/34/18/3094/4994778)
 
+(2018) [Reading Mendelian randomisation studies: a guide, glossary, and checklist for clinicians](https://www.bmj.com/content/362/bmj.k601)
+
+(2018) [Evaluating the current state of Mendelian randomization studies: a protocol for a systematic review on methodological and clinical aspects using neurodegenerative disorders as outcome](https://systematicreviewsjournal.biomedcentral.com/track/pdf/10.1186/s13643-018-0809-3.pdf)
+
 (2016) [The sequence of sequencers: the history of sequencing dna](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4727787/)
+
+(2015) [Mendelian Randomization: New Applications in the Coming Age of Hypothesis-Free Causality](https://www.annualreviews.org/doi/10.1146/annurev-genom-090314-050016)
+
+(2014) [MeRP: a high-throughput pipeline for Mendelian randomization analysis](https://academic.oup.com/bioinformatics/article/31/6/957/215107) 
+
+(2008) [Mendelian randomization: Using genes as instruments for making
+causal inferences in epidemiology](http://jenni.uchicago.edu/ERC_2010/Lawlor_Harbord_Sterne_etal_2008_SiM_v27_n8.pdf)
+
+(2007) [Capitalizing on Mendelian randomization to assess the effects of treatments](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1963388/)
+
+(2004) [Commentary: Mendelian randomization—an update on its use to evaluate allogeneic stem cell transplantation in leukaemia](https://academic.oup.com/ije/article/33/1/15/668135)
+
+(2003) [‘Mendelian randomization’: can genetic epidemiology contribute to understanding environmental determinants of disease?](https://academic.oup.com/ije/article/32/1/1/642797)
 
 
 ## Other Free Books You Should Read Instead of This Repo
