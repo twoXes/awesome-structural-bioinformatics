@@ -508,8 +508,11 @@ AlphaFold revealed not the solution to folding but instead how the real problem 
 
 (2022) [Deep distributed computing to reconstruct extremely large lineage trees](https://www.nature.com/articles/s41587-021-01111-2)
 
-
 (1996) RFC 1958 [Architectural Principles of the Internet](https://datatracker.ietf.org/doc/html/rfc1958)
+
+### Distributed Cloud
+
+> In a distributed cloud, services are located or ‘distributed’ to specific locations to reduce latency and these services enjoy a single, consistent control place across public and private cloud environments
 
 ## Brief Explanation of AlphaFold Jax Architecture
 
