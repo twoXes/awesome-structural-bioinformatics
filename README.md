@@ -514,6 +514,8 @@ AlphaFold revealed not the solution to folding but instead how the real problem 
 
 > In a distributed cloud, services are located or ‘distributed’ to specific locations to reduce latency and these services enjoy a single, consistent control place across public and private cloud environments
 
+![Google Distributed Cloud](https://github.com/Ramb0a/awesome-structural-bioinformatics/blob/main/googleDistributedCloud.png)
+
 ## Brief Explanation of AlphaFold Jax Architecture
 
 AlphaFold2 is Google's state of the art protein structure prediction model.
