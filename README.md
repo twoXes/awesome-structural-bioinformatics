@@ -495,6 +495,10 @@ causal inferences in epidemiology](http://jenni.uchicago.edu/ERC_2010/Lawlor_Har
 * [ONNX Runtime](https://onnxruntime.ai/) - speed up your informatic inference 
 * [Polars](https://github.com/pola-rs/polars) - everyone learns the hard way that Pandas doesn't cut it in the real world. Its like [Arrow](https://github.com/apache/arrow) only Rusty.
 
+## Distributed Computing in Informatics 
+
+[Deep distributed computing to reconstruct extremely large lineage trees](https://www.nature.com/articles/s41587-021-01111-2)
+
 ## Brief Explanation of AlphaFold Jax Architecture
 
 AlphaFold2 is Google's state of the art protein structure prediction model.
