@@ -497,6 +497,13 @@ causal inferences in epidemiology](http://jenni.uchicago.edu/ERC_2010/Lawlor_Har
 
 ## Distributed Computing in Informatics 
 
+High Performance Computing (HPC) is often talked about as essential technology for the future and present of Bio/Chem Informatics. At its core HPC is now and forever really a special case of distributed computing. 
+
+Though there have been projects like [Fold@home](https://foldingathome.org/about/) it is highly likely that a lack of innovation in distributed informatics computing (and decentralization as well) will continue to hinder the progress of many grand challenges in this field. 
+
+AlphaFold revealed not the solution to folding but instead how the real problem is modelling dynamic rather than static protein events and just how far there is left to go before the surface of the problem is even scratched. One on hand, we could wait potentially forever for Quantum Computers to prove themselves useful - or on the other the juice can be squeezed out of parrellel and distributed computing. 
+
+
 [Deep distributed computing to reconstruct extremely large lineage trees](https://www.nature.com/articles/s41587-021-01111-2)
 
 ## Brief Explanation of AlphaFold Jax Architecture
