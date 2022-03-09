@@ -468,23 +468,6 @@ causal inferences in epidemiology](http://jenni.uchicago.edu/ERC_2010/Lawlor_Har
 
 (2003) [‘Mendelian randomization’: can genetic epidemiology contribute to understanding environmental determinants of disease?](https://academic.oup.com/ije/article/32/1/1/642797)
 
-
-## Other Free Books You Should Read Instead of This Repo
-
-[Chemisty 2E](https://openstax.org/details/books/chemistry-2e) - :atom: Equivalent to 201 & 202 Level Chemistry Book
-
-[Chemistry: Atoms First 2E](https://openstax.org/details/books/chemistry-atoms-first-2e) :atom: Fork of 2E but not with more Atoms!!!!
-
-[Biology 2E](https://openstax.org/details/books/biology-2e) 👽 Like Chemistry 2E but Biology 
-
-[Artificial Intelligence: A Modern Approach]( https://github.com/aimacode/aima-python) 🤖 The Gospel of Machine Learning
-
-[Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/) 🤖 Michael Nielsen writes another masterpiece - About Deep Learning - if you are into that sort of thing. 
-
-[Reinforcement Learning](http://incompleteideas.net/book/RLbook2020.pdf) 🤖  The only book you need on the subject 
-
-[Pattern Recognition and Machine Learning](https://www.microsoft.com/en-us/research/uploads/prod/2006/01/Bishop-Pattern-Recognition-and-Machine-Learning-2006.pdf) 🤖 Another classic banger
-
 # Important Technology in the Future of Structural BioInformatics 
 
 * [Annoy](https://github.com/spotify/annoy) - the standard in production nearest neighbor 
@@ -608,5 +591,19 @@ def tree_map(f: Callable[..., Any], tree: Any, *rest: Any,
 
 [Jax MD](https://github.com/google/jax-md)
 
-[Open Smiles](http://opensmiles.org/opensmiles.html) - Get those old smiles out of here and imagine the wind in your hair in the drivers seat of open source smiles. The only problem - this project hasn't been updated in five years? 
+## Other Free Books You Should Read Instead of This Repo
+
+[Chemisty 2E](https://openstax.org/details/books/chemistry-2e) - :atom: Equivalent to 201 & 202 Level Chemistry Book
+
+[Chemistry: Atoms First 2E](https://openstax.org/details/books/chemistry-atoms-first-2e) :atom: Fork of 2E but not with more Atoms!!!!
+
+[Biology 2E](https://openstax.org/details/books/biology-2e) 👽 Like Chemistry 2E but Biology 
+
+[Artificial Intelligence: A Modern Approach]( https://github.com/aimacode/aima-python) 🤖 The Gospel of Machine Learning
+
+[Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/) 🤖 Michael Nielsen writes another masterpiece - About Deep Learning - if you are into that sort of thing. 
+
+[Reinforcement Learning](http://incompleteideas.net/book/RLbook2020.pdf) 🤖  The only book you need on the subject 
+
+[Pattern Recognition and Machine Learning](https://www.microsoft.com/en-us/research/uploads/prod/2006/01/Bishop-Pattern-Recognition-and-Machine-Learning-2006.pdf) 🤖 Another classic banger
 
