@@ -491,12 +491,6 @@ AlphaFold revealed not the solution to folding but instead how the real problem 
 
 (1996) RFC 1958 [Architectural Principles of the Internet](https://datatracker.ietf.org/doc/html/rfc1958)
 
-### P2P Cloud Computing 
-
-[Libp2p](https://libp2p.io/) 
-
-[Description](https://blog.keep.network/distributed-hash-tables-49721094403d) of Distributed Hash Tables (DHT)
-
 ### Distributed Cloud
 
 > In a distributed cloud, services are located or ‘distributed’ to specific locations to reduce latency and these services enjoy a single, consistent control place across public and private cloud environments
