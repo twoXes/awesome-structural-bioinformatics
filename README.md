@@ -225,7 +225,7 @@ Scoring Functions in MD can be categorized into:
 
 [StarFusion](https://github.com/STAR-Fusion/STAR-Fusion/wiki) | 📖 [paper](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-019-1842-9)
 
-### Events
+### Groups
 
 [The 5th Annual Fusion Protein Therapeutics Conference](https://www.pegsummit.com/Protein-Therapeutics)
 
