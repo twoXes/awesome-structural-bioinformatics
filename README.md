@@ -231,9 +231,7 @@ Scoring Functions in MD can be categorized into:
 
 [Fusion Oncoproteins in Childhood Cancers (FusOnC2) Consortium](https://www.cancer.gov/research/key-initiatives/moonshot-cancer-initiative/implementation/childhood-cancer-research)
 
-### Articles and References 
-
-(2021) [Fusion Protein BioSimilars](https://www.biospace.com/article/demand-for-fusion-protein-biosimilars-is-increasing-for-the-treatment-of-cancer-fact-mr/)
+### Articles and References
 
 
 
