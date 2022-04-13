@@ -209,6 +209,8 @@ Scoring Functions in MD can be categorized into:
 
 ## Fusion Proteins 
 
+### Software
+
 [ChimPipe](https://github.com/Chimera-tools/ChimPipe#:~:text=ChimPipe%20is%20a%20computational%20method,junctions%20at%20base%2Dpair%20resolution.) - ChimPipe is a computational method for the detection of novel transcription-induced chimeric transcripts and fusion genes from Illumina Paired-End RNA-seq data. It combines junction spanning and paired-end read information to accurately detect chimeric splice junctions at base-pair resolution.
 
 [DeepNF](https://github.com/VGligorijevic/deepNF) - Deep network fusion for protein function prediction | 📖 [paper](https://academic.oup.com/bioinformatics/article/34/22/3873/5026651) 
@@ -222,6 +224,14 @@ Scoring Functions in MD can be categorized into:
 [Jaffa](https://github.com/Oshlack/JAFFA) - JAFFA is a multi-step pipeline that takes either raw RNA-Seq reads, or pre-assembled transcripts, then searches for gene fusions
 
 [StarFusion](https://github.com/STAR-Fusion/STAR-Fusion/wiki) | 📖 [paper](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-019-1842-9)
+
+### Events
+
+[The 5th Annual Fusion Protein Therapeutics Conference](https://www.pegsummit.com/Protein-Therapeutics)
+
+[Fusion Oncoproteins in Childhood Cancers (FusOnC2) Consortium](https://www.cancer.gov/research/key-initiatives/moonshot-cancer-initiative/implementation/childhood-cancer-research)
+
+
 
 # Genomics 
 
