@@ -86,6 +86,8 @@ The protein folding problem consists of three closely related puzzles:
 
 [AutoDock Vina](http://vina.scripps.edu/) - significantly improves the average accuracy of the binding mode predictions compared to AutoDock
 
+[AutoDock GPU](https://github.com/ccsb-scripps/AutoDock-GPU)
+
 * [:book: Paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3041641/)
 
 [Gnina](https://github.com/gnina/gnina) - deep learning framework for molecular docking -inside deepchem (/dock/pose_generation.py)
