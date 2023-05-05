@@ -501,7 +501,10 @@ Though there have been projects like [Fold@home](https://foldingathome.org/about
 AlphaFold revealed not the solution to folding but instead how the real problem is modelling dynamic rather than static protein events and just how far there is left to go before the surface of the problem is even scratched. One on hand, we could wait potentially forever for Quantum Computers to prove themselves useful - or on the other the juice can be squeezed out of parrellel and distributed computing. 
 
 
+
 (2022) [Deep distributed computing to reconstruct extremely large lineage trees](https://www.nature.com/articles/s41587-021-01111-2)
+
+(2020) [Bioinformatics Application with Kubeflow for Batch Processing in Clouds](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7571545/)
 
 (1996) RFC 1958 [Architectural Principles of the Internet](https://datatracker.ietf.org/doc/html/rfc1958)
 
