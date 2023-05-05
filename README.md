@@ -504,7 +504,7 @@ AlphaFold revealed not the solution to folding but instead how the real problem 
 
 (2022) [Deep distributed computing to reconstruct extremely large lineage trees](https://www.nature.com/articles/s41587-021-01111-2)
 
-(2020) [Bioinformatics Application with Kubeflow for Batch Processing in Clouds](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7571545/) -  together, Docker and Kubernetes become universal platforms for Infrastructure-as-a-Service (IaaS) for Bioinformatics pipelines and other workloads.
+(2020) [Bioinformatics Application with Kubeflow for Batch Processing in Clouds](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7571545/) -  together, Docker and Kubernetes become universal platforms for Infrastructure-as-a-Service (IaaS) for Bioinformatics pipelines and other workloads. Most of Bioinformatics pipelines assume local access to POSIX-like file systems for simplicity.
 
 
 
